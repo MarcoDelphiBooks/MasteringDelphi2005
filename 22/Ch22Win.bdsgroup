@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{70ED64C4-31BF-46C4-ACA9-7CF014DDB859}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="XmlEditOne.exe">XmlEditOne\XmlEditOne.bdsproj</Projects>
+      <Projects Name="XslCust.exe">XslCust\XslCust.bdsproj</Projects>
+      <Projects Name="XmlMapping.exe">XmlMapping\XmlMapping.bdsproj</Projects>
+      <Projects Name="XmlInterface.exe">XmlInterface\XmlInterface.bdsproj</Projects>
+      <Projects Name="XmlDomTree.exe">XmlDomTree\XmlDomTree.bdsproj</Projects>
+      <Projects Name="SaxDemo1.exe">SaxDemo1\SaxDemo1.bdsproj</Projects>
+      <Projects Name="MapTable.exe">MapTable\MapTable.bdsproj</Projects>
+      <Projects Name="LargeXml.exe">LargeXml\LargeXml.bdsproj</Projects>
+      <Projects Name="DomCreate.exe">DomCreate\DomCreate.bdsproj</Projects>
+      <Projects Name="CdsXslt.exe">CdsXslt\CdsXslt.bdsproj</Projects>
+      <Projects Name="Targets">XmlEditOne.exe XslCust.exe XmlMapping.exe XmlInterface.exe XmlDomTree.exe SaxDemo1.exe MapTable.exe LargeXml.exe DomCreate.exe CdsXslt.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

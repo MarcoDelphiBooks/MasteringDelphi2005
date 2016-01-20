@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{D91F203C-5DEB-44B1-B30D-0B03DF37CEF1}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="Callfrst.exe">FirstDll\Callfrst.bdsproj</Projects>
+      <Projects Name="Firstdll.dll">FirstDll\Firstdll.bdsproj</Projects>
+      <Projects Name="DynaCall.exe">DynaCall\DynaCall.bdsproj</Projects>
+      <Projects Name="Dllmem.dll">DllMem\Dllmem.bdsproj</Projects>
+      <Projects Name="Usemem.exe">DllMem\Usemem.bdsproj</Projects>
+      <Projects Name="MarcoNameTest60.dll">NameTest\NameTest.bdsproj</Projects>
+      <Projects Name="DynaPackForm.exe">PackForm\DynaPackForm.bdsproj</Projects>
+      <Projects Name="UsePackForm.exe">PackForm\UsePackForm.bdsproj</Projects>
+      <Projects Name="PackWithForm.bpl">PackForm\PackWithForm.bdsproj</Projects>
+      <Projects Name="PackInfo.exe">PackInfo\PackInfo.bdsproj</Projects>
+      <Projects Name="IntfPack.bpl">IntfPack\IntfPack.bdsproj</Projects>
+      <Projects Name="IntfFormPack.bpl">IntfPack\IntfFormPack.bdsproj</Projects>
+      <Projects Name="IntfFormPack2.bpl">IntfPack\IntfFormPack2.bdsproj</Projects>
+      <Projects Name="UseIntfPack.exe">IntfPack\UseIntfPack.bdsproj</Projects>
+      <Projects Name="Targets">Callfrst.exe Firstdll.dll DynaCall.exe Dllmem.dll Usemem.exe MarcoNameTest60.dll DynaPackForm.exe UsePackForm.exe PackWithForm.bpl PackInfo.exe IntfPack.bpl IntfFormPack.bpl IntfFormPack2.bpl UseIntfPack.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

@@ -1,0 +1,252 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{9CDA44BE-1A47-4095-BD8C-95B7E824FC10}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Anchors\Anchors.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BtnGroups\BtnGroups.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ChangeOwner\ChangeOwner.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CustomNodes\CustomNodes.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CustPop\CustPop.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DateComp\Datecomp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DateEvt\DateEvt.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DragTree\DragTree.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="HdrSplit\HdrSlipt.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="HideComp\HideComp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="InFocus\InFocus.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="NameValues\NameValues.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="OdList\Odlist.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="OdMenu\Odmenu.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="RefList\RefList.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Split1\Split1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Split2\Split2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SplitH\Splith.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CustHint\CustHint.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Anchors">
+			<MSBuild Projects="Anchors\Anchors.dproj"/>
+		</Target>
+		<Target Name="Anchors:Clean">
+			<MSBuild Targets="Clean" Projects="Anchors\Anchors.dproj"/>
+		</Target>
+		<Target Name="Anchors:Make">
+			<MSBuild Targets="Make" Projects="Anchors\Anchors.dproj"/>
+		</Target>
+		<Target Name="BtnGroups">
+			<MSBuild Projects="BtnGroups\BtnGroups.dproj"/>
+		</Target>
+		<Target Name="BtnGroups:Clean">
+			<MSBuild Targets="Clean" Projects="BtnGroups\BtnGroups.dproj"/>
+		</Target>
+		<Target Name="BtnGroups:Make">
+			<MSBuild Targets="Make" Projects="BtnGroups\BtnGroups.dproj"/>
+		</Target>
+		<Target Name="ChangeOwner">
+			<MSBuild Projects="ChangeOwner\ChangeOwner.dproj"/>
+		</Target>
+		<Target Name="ChangeOwner:Clean">
+			<MSBuild Targets="Clean" Projects="ChangeOwner\ChangeOwner.dproj"/>
+		</Target>
+		<Target Name="ChangeOwner:Make">
+			<MSBuild Targets="Make" Projects="ChangeOwner\ChangeOwner.dproj"/>
+		</Target>
+		<Target Name="CustomNodes">
+			<MSBuild Projects="CustomNodes\CustomNodes.dproj"/>
+		</Target>
+		<Target Name="CustomNodes:Clean">
+			<MSBuild Targets="Clean" Projects="CustomNodes\CustomNodes.dproj"/>
+		</Target>
+		<Target Name="CustomNodes:Make">
+			<MSBuild Targets="Make" Projects="CustomNodes\CustomNodes.dproj"/>
+		</Target>
+		<Target Name="CustPop">
+			<MSBuild Projects="CustPop\CustPop.dproj"/>
+		</Target>
+		<Target Name="CustPop:Clean">
+			<MSBuild Targets="Clean" Projects="CustPop\CustPop.dproj"/>
+		</Target>
+		<Target Name="CustPop:Make">
+			<MSBuild Targets="Make" Projects="CustPop\CustPop.dproj"/>
+		</Target>
+		<Target Name="Datecomp">
+			<MSBuild Projects="DateComp\Datecomp.dproj"/>
+		</Target>
+		<Target Name="Datecomp:Clean">
+			<MSBuild Targets="Clean" Projects="DateComp\Datecomp.dproj"/>
+		</Target>
+		<Target Name="Datecomp:Make">
+			<MSBuild Targets="Make" Projects="DateComp\Datecomp.dproj"/>
+		</Target>
+		<Target Name="DateEvt">
+			<MSBuild Projects="DateEvt\DateEvt.dproj"/>
+		</Target>
+		<Target Name="DateEvt:Clean">
+			<MSBuild Targets="Clean" Projects="DateEvt\DateEvt.dproj"/>
+		</Target>
+		<Target Name="DateEvt:Make">
+			<MSBuild Targets="Make" Projects="DateEvt\DateEvt.dproj"/>
+		</Target>
+		<Target Name="DragTree">
+			<MSBuild Projects="DragTree\DragTree.dproj"/>
+		</Target>
+		<Target Name="DragTree:Clean">
+			<MSBuild Targets="Clean" Projects="DragTree\DragTree.dproj"/>
+		</Target>
+		<Target Name="DragTree:Make">
+			<MSBuild Targets="Make" Projects="DragTree\DragTree.dproj"/>
+		</Target>
+		<Target Name="HdrSlipt">
+			<MSBuild Projects="HdrSplit\HdrSlipt.dproj"/>
+		</Target>
+		<Target Name="HdrSlipt:Clean">
+			<MSBuild Targets="Clean" Projects="HdrSplit\HdrSlipt.dproj"/>
+		</Target>
+		<Target Name="HdrSlipt:Make">
+			<MSBuild Targets="Make" Projects="HdrSplit\HdrSlipt.dproj"/>
+		</Target>
+		<Target Name="HideComp">
+			<MSBuild Projects="HideComp\HideComp.dproj"/>
+		</Target>
+		<Target Name="HideComp:Clean">
+			<MSBuild Targets="Clean" Projects="HideComp\HideComp.dproj"/>
+		</Target>
+		<Target Name="HideComp:Make">
+			<MSBuild Targets="Make" Projects="HideComp\HideComp.dproj"/>
+		</Target>
+		<Target Name="InFocus">
+			<MSBuild Projects="InFocus\InFocus.dproj"/>
+		</Target>
+		<Target Name="InFocus:Clean">
+			<MSBuild Targets="Clean" Projects="InFocus\InFocus.dproj"/>
+		</Target>
+		<Target Name="InFocus:Make">
+			<MSBuild Targets="Make" Projects="InFocus\InFocus.dproj"/>
+		</Target>
+		<Target Name="NameValues">
+			<MSBuild Projects="NameValues\NameValues.dproj"/>
+		</Target>
+		<Target Name="NameValues:Clean">
+			<MSBuild Targets="Clean" Projects="NameValues\NameValues.dproj"/>
+		</Target>
+		<Target Name="NameValues:Make">
+			<MSBuild Targets="Make" Projects="NameValues\NameValues.dproj"/>
+		</Target>
+		<Target Name="Odlist">
+			<MSBuild Projects="OdList\Odlist.dproj"/>
+		</Target>
+		<Target Name="Odlist:Clean">
+			<MSBuild Targets="Clean" Projects="OdList\Odlist.dproj"/>
+		</Target>
+		<Target Name="Odlist:Make">
+			<MSBuild Targets="Make" Projects="OdList\Odlist.dproj"/>
+		</Target>
+		<Target Name="Odmenu">
+			<MSBuild Projects="OdMenu\Odmenu.dproj"/>
+		</Target>
+		<Target Name="Odmenu:Clean">
+			<MSBuild Targets="Clean" Projects="OdMenu\Odmenu.dproj"/>
+		</Target>
+		<Target Name="Odmenu:Make">
+			<MSBuild Targets="Make" Projects="OdMenu\Odmenu.dproj"/>
+		</Target>
+		<Target Name="RefList">
+			<MSBuild Projects="RefList\RefList.dproj"/>
+		</Target>
+		<Target Name="RefList:Clean">
+			<MSBuild Targets="Clean" Projects="RefList\RefList.dproj"/>
+		</Target>
+		<Target Name="RefList:Make">
+			<MSBuild Targets="Make" Projects="RefList\RefList.dproj"/>
+		</Target>
+		<Target Name="Split1">
+			<MSBuild Projects="Split1\Split1.dproj"/>
+		</Target>
+		<Target Name="Split1:Clean">
+			<MSBuild Targets="Clean" Projects="Split1\Split1.dproj"/>
+		</Target>
+		<Target Name="Split1:Make">
+			<MSBuild Targets="Make" Projects="Split1\Split1.dproj"/>
+		</Target>
+		<Target Name="Split2">
+			<MSBuild Projects="Split2\Split2.dproj"/>
+		</Target>
+		<Target Name="Split2:Clean">
+			<MSBuild Targets="Clean" Projects="Split2\Split2.dproj"/>
+		</Target>
+		<Target Name="Split2:Make">
+			<MSBuild Targets="Make" Projects="Split2\Split2.dproj"/>
+		</Target>
+		<Target Name="Splith">
+			<MSBuild Projects="SplitH\Splith.dproj"/>
+		</Target>
+		<Target Name="Splith:Clean">
+			<MSBuild Targets="Clean" Projects="SplitH\Splith.dproj"/>
+		</Target>
+		<Target Name="Splith:Make">
+			<MSBuild Targets="Make" Projects="SplitH\Splith.dproj"/>
+		</Target>
+		<Target Name="CustHint">
+			<MSBuild Projects="CustHint\CustHint.dproj"/>
+		</Target>
+		<Target Name="CustHint:Clean">
+			<MSBuild Targets="Clean" Projects="CustHint\CustHint.dproj"/>
+		</Target>
+		<Target Name="CustHint:Make">
+			<MSBuild Targets="Make" Projects="CustHint\CustHint.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Anchors;BtnGroups;ChangeOwner;CustomNodes;CustPop;Datecomp;DateEvt;DragTree;HdrSlipt;HideComp;InFocus;NameValues;Odlist;Odmenu;RefList;Split1;Split2;Splith;CustHint"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Anchors:Clean;BtnGroups:Clean;ChangeOwner:Clean;CustomNodes:Clean;CustPop:Clean;Datecomp:Clean;DateEvt:Clean;DragTree:Clean;HdrSlipt:Clean;HideComp:Clean;InFocus:Clean;NameValues:Clean;Odlist:Clean;Odmenu:Clean;RefList:Clean;Split1:Clean;Split2:Clean;Splith:Clean;CustHint:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Anchors:Make;BtnGroups:Make;ChangeOwner:Make;CustomNodes:Make;CustPop:Make;Datecomp:Make;DateEvt:Make;DragTree:Make;HdrSlipt:Make;HideComp:Make;InFocus:Make;NameValues:Make;Odlist:Make;Odmenu:Make;RefList:Make;Split1:Make;Split2:Make;Splith:Make;CustHint:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

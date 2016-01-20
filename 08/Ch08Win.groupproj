@@ -1,0 +1,180 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{7B9DC172-F3C9-41FD-9D2B-84A3862ADF4A}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="AcManTest\AcManTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Actions\Actions.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BmpViewer\BmpViewer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DockPage\DockPage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DockTabTest\DockTabTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DockTest\DockTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ListActions\ListActions.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="RichBar\RichBar.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MdEdit1\MdEdit1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MdEdit2\MdEdit2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MdEdit3\MdEdit3.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Pages\Pages.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WizardUI\WizardUI.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="AcManTest">
+			<MSBuild Projects="AcManTest\AcManTest.dproj"/>
+		</Target>
+		<Target Name="AcManTest:Clean">
+			<MSBuild Targets="Clean" Projects="AcManTest\AcManTest.dproj"/>
+		</Target>
+		<Target Name="AcManTest:Make">
+			<MSBuild Targets="Make" Projects="AcManTest\AcManTest.dproj"/>
+		</Target>
+		<Target Name="Actions">
+			<MSBuild Projects="Actions\Actions.dproj"/>
+		</Target>
+		<Target Name="Actions:Clean">
+			<MSBuild Targets="Clean" Projects="Actions\Actions.dproj"/>
+		</Target>
+		<Target Name="Actions:Make">
+			<MSBuild Targets="Make" Projects="Actions\Actions.dproj"/>
+		</Target>
+		<Target Name="BmpViewer">
+			<MSBuild Projects="BmpViewer\BmpViewer.dproj"/>
+		</Target>
+		<Target Name="BmpViewer:Clean">
+			<MSBuild Targets="Clean" Projects="BmpViewer\BmpViewer.dproj"/>
+		</Target>
+		<Target Name="BmpViewer:Make">
+			<MSBuild Targets="Make" Projects="BmpViewer\BmpViewer.dproj"/>
+		</Target>
+		<Target Name="DockPage">
+			<MSBuild Projects="DockPage\DockPage.dproj"/>
+		</Target>
+		<Target Name="DockPage:Clean">
+			<MSBuild Targets="Clean" Projects="DockPage\DockPage.dproj"/>
+		</Target>
+		<Target Name="DockPage:Make">
+			<MSBuild Targets="Make" Projects="DockPage\DockPage.dproj"/>
+		</Target>
+		<Target Name="DockTabTest">
+			<MSBuild Projects="DockTabTest\DockTabTest.dproj"/>
+		</Target>
+		<Target Name="DockTabTest:Clean">
+			<MSBuild Targets="Clean" Projects="DockTabTest\DockTabTest.dproj"/>
+		</Target>
+		<Target Name="DockTabTest:Make">
+			<MSBuild Targets="Make" Projects="DockTabTest\DockTabTest.dproj"/>
+		</Target>
+		<Target Name="DockTest">
+			<MSBuild Projects="DockTest\DockTest.dproj"/>
+		</Target>
+		<Target Name="DockTest:Clean">
+			<MSBuild Targets="Clean" Projects="DockTest\DockTest.dproj"/>
+		</Target>
+		<Target Name="DockTest:Make">
+			<MSBuild Targets="Make" Projects="DockTest\DockTest.dproj"/>
+		</Target>
+		<Target Name="ListActions">
+			<MSBuild Projects="ListActions\ListActions.dproj"/>
+		</Target>
+		<Target Name="ListActions:Clean">
+			<MSBuild Targets="Clean" Projects="ListActions\ListActions.dproj"/>
+		</Target>
+		<Target Name="ListActions:Make">
+			<MSBuild Targets="Make" Projects="ListActions\ListActions.dproj"/>
+		</Target>
+		<Target Name="RichBar">
+			<MSBuild Projects="RichBar\RichBar.dproj"/>
+		</Target>
+		<Target Name="RichBar:Clean">
+			<MSBuild Targets="Clean" Projects="RichBar\RichBar.dproj"/>
+		</Target>
+		<Target Name="RichBar:Make">
+			<MSBuild Targets="Make" Projects="RichBar\RichBar.dproj"/>
+		</Target>
+		<Target Name="MdEdit1">
+			<MSBuild Projects="MdEdit1\MdEdit1.dproj"/>
+		</Target>
+		<Target Name="MdEdit1:Clean">
+			<MSBuild Targets="Clean" Projects="MdEdit1\MdEdit1.dproj"/>
+		</Target>
+		<Target Name="MdEdit1:Make">
+			<MSBuild Targets="Make" Projects="MdEdit1\MdEdit1.dproj"/>
+		</Target>
+		<Target Name="MdEdit2">
+			<MSBuild Projects="MdEdit2\MdEdit2.dproj"/>
+		</Target>
+		<Target Name="MdEdit2:Clean">
+			<MSBuild Targets="Clean" Projects="MdEdit2\MdEdit2.dproj"/>
+		</Target>
+		<Target Name="MdEdit2:Make">
+			<MSBuild Targets="Make" Projects="MdEdit2\MdEdit2.dproj"/>
+		</Target>
+		<Target Name="MdEdit3">
+			<MSBuild Projects="MdEdit3\MdEdit3.dproj"/>
+		</Target>
+		<Target Name="MdEdit3:Clean">
+			<MSBuild Targets="Clean" Projects="MdEdit3\MdEdit3.dproj"/>
+		</Target>
+		<Target Name="MdEdit3:Make">
+			<MSBuild Targets="Make" Projects="MdEdit3\MdEdit3.dproj"/>
+		</Target>
+		<Target Name="Pages">
+			<MSBuild Projects="Pages\Pages.dproj"/>
+		</Target>
+		<Target Name="Pages:Clean">
+			<MSBuild Targets="Clean" Projects="Pages\Pages.dproj"/>
+		</Target>
+		<Target Name="Pages:Make">
+			<MSBuild Targets="Make" Projects="Pages\Pages.dproj"/>
+		</Target>
+		<Target Name="WizardUI">
+			<MSBuild Projects="WizardUI\WizardUI.dproj"/>
+		</Target>
+		<Target Name="WizardUI:Clean">
+			<MSBuild Targets="Clean" Projects="WizardUI\WizardUI.dproj"/>
+		</Target>
+		<Target Name="WizardUI:Make">
+			<MSBuild Targets="Make" Projects="WizardUI\WizardUI.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="AcManTest;Actions;BmpViewer;DockPage;DockTabTest;DockTest;ListActions;RichBar;MdEdit1;MdEdit2;MdEdit3;Pages;WizardUI"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="AcManTest:Clean;Actions:Clean;BmpViewer:Clean;DockPage:Clean;DockTabTest:Clean;DockTest:Clean;ListActions:Clean;RichBar:Clean;MdEdit1:Clean;MdEdit2:Clean;MdEdit3:Clean;Pages:Clean;WizardUI:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="AcManTest:Make;Actions:Make;BmpViewer:Make;DockPage:Make;DockTabTest:Make;DockTest:Make;ListActions:Make;RichBar:Make;MdEdit1:Make;MdEdit2:Make;MdEdit3:Make;Pages:Make;WizardUI:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

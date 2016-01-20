@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{AD6F8EC6-7D73-4CBF-9250-B0EB36DF9CA6}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="NewGuid.exe">NewGuid\NewGuid.bdsproj</Projects>
+      <Projects Name="FirstCom.dll">FirstCom\FirstCom.bdsproj</Projects>
+      <Projects Name="CCWTest.exe">CCWTest\CCWTest.bdsproj</Projects>
+      <Projects Name="DotNETAssembly.dll">CCWTest\DotNETAssembly.bdsproj</Projects>
+      <Projects Name="ManagedLibrary.dll">ManagedExports\ManagedLibrary.bdsproj</Projects>
+      <Projects Name="MEClient.exe">ManagedExports\MEClient.bdsproj</Projects>
+      <Projects Name="PackAuto.bpl">PackAuto\PackAuto.bdsproj</Projects>
+      <Projects Name="PInvokeTestExplicit.exe">PInvokeTest\PInvokeTestExplicit.bdsproj</Projects>
+      <Projects Name="PInvokeTestImplicit.exe">PInvokeTest\PInvokeTestImplicit.bdsproj</Projects>
+      <Projects Name="Propcom.dll">PropCom\Propcom.bdsproj</Projects>
+      <Projects Name="RCWTest.exe">RCWTest\RCWTest.bdsproj</Projects>
+      <Projects Name="SAPIApp.exe">SAPIApp\SAPIApp.bdsproj</Projects>
+      <Projects Name="SimpleServer.dll">SimpleServer\SimpleServer.bdsproj</Projects>
+      <Projects Name="TestCom.exe">TestCom\TestCom.bdsproj</Projects>
+      <Projects Name="TestProp.exe">TestProp\TestProp.bdsproj</Projects>
+      <Projects Name="Tlibcli.exe">TLibCli\Tlibcli.bdsproj</Projects>
+      <Projects Name="Tlibdemo.exe">TLibDemo\Tlibdemo.bdsproj</Projects>
+      <Projects Name="VLITest.exe">VLITest\VLITest.bdsproj</Projects>
+      <Projects Name="Win32DLL.dll">VLITest\Win32DLL.bdsproj</Projects>
+      <Projects Name="WordTest.exe">WordTest\WordTest.bdsproj</Projects>
+      <Projects Name="Targets">NewGuid.exe FirstCom.dll CCWTest.exe DotNETAssembly.dll ManagedLibrary.dll MEClient.exe PackAuto.bpl PInvokeTestExplicit.exe PInvokeTestImplicit.exe Propcom.dll RCWTest.exe SAPIApp.exe SimpleServer.dll TestCom.exe TestProp.exe Tlibcli.exe Tlibdemo.exe VLITest.exe Win32DLL.dll WordTest.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

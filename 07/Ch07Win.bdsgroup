@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{769270CC-77C2-41A9-A5F7-7D37967C3187}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="ActivApp.exe">ActivApp\ActivApp.bdsproj</Projects>
+      <Projects Name="Borders.exe">Borders\Borders.bdsproj</Projects>
+      <Projects Name="ColorKeyHole.exe">ColorKeyHole\ColorKeyHole.bdsproj</Projects>
+      <Projects Name="CommDlgTest.exe">CommDlgTest\CommDlgTest.bdsproj</Projects>
+      <Projects Name="CreatOrd.exe">CreatOrd\CreatOrd.bdsproj</Projects>
+      <Projects Name="DlgApply.exe">DlgApply\DlgApply.bdsproj</Projects>
+      <Projects Name="DynaForm.exe">DynaForm\DynaForm.bdsproj</Projects>
+      <Projects Name="FormIntf.exe">FormIntf\FormIntf.bdsproj</Projects>
+      <Projects Name="MouseActivateDemo.exe">FormMouseActivate\MouseActivateDemo.bdsproj</Projects>
+      <Projects Name="FormPage.exe">FormPage\FormPage.bdsproj</Projects>
+      <Projects Name="Frames2.exe">Frames2\Frames2.bdsproj</Projects>
+      <Projects Name="KPreview.exe">KPreview\KPreview.bdsproj</Projects>
+      <Projects Name="Mdidemo.exe">MdiDemo\Mdidemo.bdsproj</Projects>
+      <Projects Name="MdiMulti.exe">MdiMulti\MdiMulti.bdsproj</Projects>
+      <Projects Name="MouseOne.exe">MouseOne\MouseOne.bdsproj</Projects>
+      <Projects Name="MultiWin.exe">MultiWin\MultiWin.bdsproj</Projects>
+      <Projects Name="NoTitle.exe">NoTitle\NoTitle.bdsproj</Projects>
+      <Projects Name="PoliForm.exe">PoliForm\PoliForm.bdsproj</Projects>
+      <Projects Name="Reflist2.exe">RefList2\Reflist2.bdsproj</Projects>
+      <Projects Name="Screen.exe">Screen\Screen.bdsproj</Projects>
+      <Projects Name="Scroll2.exe">Scroll2\Scroll2.bdsproj</Projects>
+      <Projects Name="ShowApp.exe">ShowApp\ShowApp.bdsproj</Projects>
+      <Projects Name="Vfi.exe">Vfi\Vfi.bdsproj</Projects>
+      <Projects Name="FramePag.exe">FramePag\FramePag.bdsproj</Projects>
+      <Projects Name="FrameTab.exe">FrameTab\FrameTab.bdsproj</Projects>
+      <Projects Name="Targets">ActivApp.exe Borders.exe ColorKeyHole.exe CommDlgTest.exe CreatOrd.exe DlgApply.exe DynaForm.exe FormIntf.exe MouseActivateDemo.exe FormPage.exe Frames2.exe KPreview.exe Mdidemo.exe MdiMulti.exe MouseOne.exe MultiWin.exe NoTitle.exe PoliForm.exe Reflist2.exe Screen.exe Scroll2.exe ShowApp.exe Vfi.exe FramePag.exe FrameTab.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

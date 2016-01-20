@@ -1,0 +1,338 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{9f87d214-3ce2-4ac1-87fa-624d757c9ab6}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ActivApp\ActivApp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Borders\Borders.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CommDlgTest\CommDlgTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DlgApply\DlgApply.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FormIntf\FormIntf.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FormMouseActivate\MouseActivateDemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FormPage\FormPage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Frames2\Frames2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="KPreview\KPreview.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MdiMulti\MdiMulti.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MouseOne\MouseOne.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="NoTitle\NoTitle.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PoliForm\PoliForm.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="RefList2\Reflist2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Screen\Screen.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Scroll2\Scroll2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ShowApp\ShowApp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Vfi\Vfi.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FramePag\FramePag.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FrameTab\FrameTab.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ColorKeyHole\ColorKeyHole.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DynaForm\DynaForm.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MdiDemo\Mdidemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MultiWin\MultiWin.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Screen2\Screen2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Scroll1\Scroll1.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<BorlandProject>
+					<Default.Personality/>
+				</BorlandProject>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="ActivApp">
+			<MSBuild Projects="ActivApp\ActivApp.dproj"/>
+		</Target>
+		<Target Name="ActivApp:Clean">
+			<MSBuild Targets="Clean" Projects="ActivApp\ActivApp.dproj"/>
+		</Target>
+		<Target Name="ActivApp:Make">
+			<MSBuild Targets="Make" Projects="ActivApp\ActivApp.dproj"/>
+		</Target>
+		<Target Name="Borders">
+			<MSBuild Projects="Borders\Borders.dproj"/>
+		</Target>
+		<Target Name="Borders:Clean">
+			<MSBuild Targets="Clean" Projects="Borders\Borders.dproj"/>
+		</Target>
+		<Target Name="Borders:Make">
+			<MSBuild Targets="Make" Projects="Borders\Borders.dproj"/>
+		</Target>
+		<Target Name="CommDlgTest">
+			<MSBuild Projects="CommDlgTest\CommDlgTest.dproj"/>
+		</Target>
+		<Target Name="CommDlgTest:Clean">
+			<MSBuild Targets="Clean" Projects="CommDlgTest\CommDlgTest.dproj"/>
+		</Target>
+		<Target Name="CommDlgTest:Make">
+			<MSBuild Targets="Make" Projects="CommDlgTest\CommDlgTest.dproj"/>
+		</Target>
+		<Target Name="DlgApply">
+			<MSBuild Projects="DlgApply\DlgApply.dproj"/>
+		</Target>
+		<Target Name="DlgApply:Clean">
+			<MSBuild Targets="Clean" Projects="DlgApply\DlgApply.dproj"/>
+		</Target>
+		<Target Name="DlgApply:Make">
+			<MSBuild Targets="Make" Projects="DlgApply\DlgApply.dproj"/>
+		</Target>
+		<Target Name="FormIntf">
+			<MSBuild Projects="FormIntf\FormIntf.dproj"/>
+		</Target>
+		<Target Name="FormIntf:Clean">
+			<MSBuild Targets="Clean" Projects="FormIntf\FormIntf.dproj"/>
+		</Target>
+		<Target Name="FormIntf:Make">
+			<MSBuild Targets="Make" Projects="FormIntf\FormIntf.dproj"/>
+		</Target>
+		<Target Name="MouseActivateDemo">
+			<MSBuild Projects="FormMouseActivate\MouseActivateDemo.dproj"/>
+		</Target>
+		<Target Name="MouseActivateDemo:Clean">
+			<MSBuild Targets="Clean" Projects="FormMouseActivate\MouseActivateDemo.dproj"/>
+		</Target>
+		<Target Name="MouseActivateDemo:Make">
+			<MSBuild Targets="Make" Projects="FormMouseActivate\MouseActivateDemo.dproj"/>
+		</Target>
+		<Target Name="FormPage">
+			<MSBuild Projects="FormPage\FormPage.dproj"/>
+		</Target>
+		<Target Name="FormPage:Clean">
+			<MSBuild Targets="Clean" Projects="FormPage\FormPage.dproj"/>
+		</Target>
+		<Target Name="FormPage:Make">
+			<MSBuild Targets="Make" Projects="FormPage\FormPage.dproj"/>
+		</Target>
+		<Target Name="Frames2">
+			<MSBuild Projects="Frames2\Frames2.dproj"/>
+		</Target>
+		<Target Name="Frames2:Clean">
+			<MSBuild Targets="Clean" Projects="Frames2\Frames2.dproj"/>
+		</Target>
+		<Target Name="Frames2:Make">
+			<MSBuild Targets="Make" Projects="Frames2\Frames2.dproj"/>
+		</Target>
+		<Target Name="KPreview">
+			<MSBuild Projects="KPreview\KPreview.dproj"/>
+		</Target>
+		<Target Name="KPreview:Clean">
+			<MSBuild Targets="Clean" Projects="KPreview\KPreview.dproj"/>
+		</Target>
+		<Target Name="KPreview:Make">
+			<MSBuild Targets="Make" Projects="KPreview\KPreview.dproj"/>
+		</Target>
+		<Target Name="MdiMulti">
+			<MSBuild Projects="MdiMulti\MdiMulti.dproj"/>
+		</Target>
+		<Target Name="MdiMulti:Clean">
+			<MSBuild Targets="Clean" Projects="MdiMulti\MdiMulti.dproj"/>
+		</Target>
+		<Target Name="MdiMulti:Make">
+			<MSBuild Targets="Make" Projects="MdiMulti\MdiMulti.dproj"/>
+		</Target>
+		<Target Name="MouseOne">
+			<MSBuild Projects="MouseOne\MouseOne.dproj"/>
+		</Target>
+		<Target Name="MouseOne:Clean">
+			<MSBuild Targets="Clean" Projects="MouseOne\MouseOne.dproj"/>
+		</Target>
+		<Target Name="MouseOne:Make">
+			<MSBuild Targets="Make" Projects="MouseOne\MouseOne.dproj"/>
+		</Target>
+		<Target Name="NoTitle">
+			<MSBuild Projects="NoTitle\NoTitle.dproj"/>
+		</Target>
+		<Target Name="NoTitle:Clean">
+			<MSBuild Targets="Clean" Projects="NoTitle\NoTitle.dproj"/>
+		</Target>
+		<Target Name="NoTitle:Make">
+			<MSBuild Targets="Make" Projects="NoTitle\NoTitle.dproj"/>
+		</Target>
+		<Target Name="PoliForm">
+			<MSBuild Projects="PoliForm\PoliForm.dproj"/>
+		</Target>
+		<Target Name="PoliForm:Clean">
+			<MSBuild Targets="Clean" Projects="PoliForm\PoliForm.dproj"/>
+		</Target>
+		<Target Name="PoliForm:Make">
+			<MSBuild Targets="Make" Projects="PoliForm\PoliForm.dproj"/>
+		</Target>
+		<Target Name="Reflist2">
+			<MSBuild Projects="RefList2\Reflist2.dproj"/>
+		</Target>
+		<Target Name="Reflist2:Clean">
+			<MSBuild Targets="Clean" Projects="RefList2\Reflist2.dproj"/>
+		</Target>
+		<Target Name="Reflist2:Make">
+			<MSBuild Targets="Make" Projects="RefList2\Reflist2.dproj"/>
+		</Target>
+		<Target Name="Screen">
+			<MSBuild Projects="Screen\Screen.dproj"/>
+		</Target>
+		<Target Name="Screen:Clean">
+			<MSBuild Targets="Clean" Projects="Screen\Screen.dproj"/>
+		</Target>
+		<Target Name="Screen:Make">
+			<MSBuild Targets="Make" Projects="Screen\Screen.dproj"/>
+		</Target>
+		<Target Name="Scroll2">
+			<MSBuild Projects="Scroll2\Scroll2.dproj"/>
+		</Target>
+		<Target Name="Scroll2:Clean">
+			<MSBuild Targets="Clean" Projects="Scroll2\Scroll2.dproj"/>
+		</Target>
+		<Target Name="Scroll2:Make">
+			<MSBuild Targets="Make" Projects="Scroll2\Scroll2.dproj"/>
+		</Target>
+		<Target Name="ShowApp">
+			<MSBuild Projects="ShowApp\ShowApp.dproj"/>
+		</Target>
+		<Target Name="ShowApp:Clean">
+			<MSBuild Targets="Clean" Projects="ShowApp\ShowApp.dproj"/>
+		</Target>
+		<Target Name="ShowApp:Make">
+			<MSBuild Targets="Make" Projects="ShowApp\ShowApp.dproj"/>
+		</Target>
+		<Target Name="Vfi">
+			<MSBuild Projects="Vfi\Vfi.dproj"/>
+		</Target>
+		<Target Name="Vfi:Clean">
+			<MSBuild Targets="Clean" Projects="Vfi\Vfi.dproj"/>
+		</Target>
+		<Target Name="Vfi:Make">
+			<MSBuild Targets="Make" Projects="Vfi\Vfi.dproj"/>
+		</Target>
+		<Target Name="FramePag">
+			<MSBuild Projects="FramePag\FramePag.dproj"/>
+		</Target>
+		<Target Name="FramePag:Clean">
+			<MSBuild Targets="Clean" Projects="FramePag\FramePag.dproj"/>
+		</Target>
+		<Target Name="FramePag:Make">
+			<MSBuild Targets="Make" Projects="FramePag\FramePag.dproj"/>
+		</Target>
+		<Target Name="FrameTab">
+			<MSBuild Projects="FrameTab\FrameTab.dproj"/>
+		</Target>
+		<Target Name="FrameTab:Clean">
+			<MSBuild Targets="Clean" Projects="FrameTab\FrameTab.dproj"/>
+		</Target>
+		<Target Name="FrameTab:Make">
+			<MSBuild Targets="Make" Projects="FrameTab\FrameTab.dproj"/>
+		</Target>
+		<Target Name="ColorKeyHole">
+			<MSBuild Projects="ColorKeyHole\ColorKeyHole.dproj"/>
+		</Target>
+		<Target Name="ColorKeyHole:Clean">
+			<MSBuild Targets="Clean" Projects="ColorKeyHole\ColorKeyHole.dproj"/>
+		</Target>
+		<Target Name="ColorKeyHole:Make">
+			<MSBuild Targets="Make" Projects="ColorKeyHole\ColorKeyHole.dproj"/>
+		</Target>
+		<Target Name="DynaForm">
+			<MSBuild Projects="DynaForm\DynaForm.dproj"/>
+		</Target>
+		<Target Name="DynaForm:Clean">
+			<MSBuild Targets="Clean" Projects="DynaForm\DynaForm.dproj"/>
+		</Target>
+		<Target Name="DynaForm:Make">
+			<MSBuild Targets="Make" Projects="DynaForm\DynaForm.dproj"/>
+		</Target>
+		<Target Name="Mdidemo">
+			<MSBuild Projects="MdiDemo\Mdidemo.dproj"/>
+		</Target>
+		<Target Name="Mdidemo:Clean">
+			<MSBuild Targets="Clean" Projects="MdiDemo\Mdidemo.dproj"/>
+		</Target>
+		<Target Name="Mdidemo:Make">
+			<MSBuild Targets="Make" Projects="MdiDemo\Mdidemo.dproj"/>
+		</Target>
+		<Target Name="MultiWin">
+			<MSBuild Projects="MultiWin\MultiWin.dproj"/>
+		</Target>
+		<Target Name="MultiWin:Clean">
+			<MSBuild Targets="Clean" Projects="MultiWin\MultiWin.dproj"/>
+		</Target>
+		<Target Name="MultiWin:Make">
+			<MSBuild Targets="Make" Projects="MultiWin\MultiWin.dproj"/>
+		</Target>
+		<Target Name="Screen2">
+			<MSBuild Projects="Screen2\Screen2.dproj"/>
+		</Target>
+		<Target Name="Screen2:Clean">
+			<MSBuild Targets="Clean" Projects="Screen2\Screen2.dproj"/>
+		</Target>
+		<Target Name="Screen2:Make">
+			<MSBuild Targets="Make" Projects="Screen2\Screen2.dproj"/>
+		</Target>
+		<Target Name="Scroll1">
+			<MSBuild Projects="Scroll1\Scroll1.dproj"/>
+		</Target>
+		<Target Name="Scroll1:Clean">
+			<MSBuild Targets="Clean" Projects="Scroll1\Scroll1.dproj"/>
+		</Target>
+		<Target Name="Scroll1:Make">
+			<MSBuild Targets="Make" Projects="Scroll1\Scroll1.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="ActivApp;Borders;CommDlgTest;DlgApply;FormIntf;MouseActivateDemo;FormPage;Frames2;KPreview;MdiMulti;MouseOne;NoTitle;PoliForm;Reflist2;Screen;Scroll2;ShowApp;Vfi;FramePag;FrameTab;ColorKeyHole;DynaForm;Mdidemo;MultiWin;Screen2;Scroll1"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="ActivApp:Clean;Borders:Clean;CommDlgTest:Clean;DlgApply:Clean;FormIntf:Clean;MouseActivateDemo:Clean;FormPage:Clean;Frames2:Clean;KPreview:Clean;MdiMulti:Clean;MouseOne:Clean;NoTitle:Clean;PoliForm:Clean;Reflist2:Clean;Screen:Clean;Scroll2:Clean;ShowApp:Clean;Vfi:Clean;FramePag:Clean;FrameTab:Clean;ColorKeyHole:Clean;DynaForm:Clean;Mdidemo:Clean;MultiWin:Clean;Screen2:Clean;Scroll1:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="ActivApp:Make;Borders:Make;CommDlgTest:Make;DlgApply:Make;FormIntf:Make;MouseActivateDemo:Make;FormPage:Make;Frames2:Make;KPreview:Make;MdiMulti:Make;MouseOne:Make;NoTitle:Make;PoliForm:Make;Reflist2:Make;Screen:Make;Scroll2:Make;ShowApp:Make;Vfi:Make;FramePag:Make;FrameTab:Make;ColorKeyHole:Make;DynaForm:Make;Mdidemo:Make;MultiWin:Make;Screen2:Make;Scroll1:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

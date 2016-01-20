@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{91444AA4-70A2-4D04-80DB-F03F28265438}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="ClassInfo.exe">ClassInfo\ClassInfo.bdsproj</Projects>
+      <Projects Name="ConvDemo.exe">ConvDemo\ConvDemo.bdsproj</Projects>
+      <Projects Name="EuroConv.exe">EuroConv\EuroConv.bdsproj</Projects>
+      <Projects Name="FilesList.exe">FilesList\FilesList.bdsproj</Projects>
+      <Projects Name="ForInContainer.exe">ForInContainer\ForInContainer.bdsproj</Projects>
+      <Projects Name="IfSender.exe">IfSender\IfSender.bdsproj</Projects>
+      <Projects Name="MiniPack.exe">MiniPack\MiniPack.bdsproj</Projects>
+      <Projects Name="MiniSize.exe">MiniSize\MiniSize.bdsproj</Projects>
+      <Projects Name="Rounding.exe">Rounding\Rounding.bdsproj</Projects>
+      <Projects Name="StrDemo.exe">StrDemo\StrDemo.bdsproj</Projects>
+      <Projects Name="VariantComp.exe">VariantComp\VariantComp.bdsproj</Projects>
+      <Projects Name="WinVersion.exe">WinVersion\WinVersion.bdsproj</Projects>
+      <Projects Name="Targets">ClassInfo.exe ConvDemo.exe EuroConv.exe FilesList.exe ForInContainer.exe IfSender.exe MiniPack.exe MiniSize.exe Rounding.exe StrDemo.exe VariantComp.exe WinVersion.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

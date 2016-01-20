@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{C59EC362-BB06-40B6-9338-205F52FDC8B4}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="UsePackForm.exe">UsePackForm.bdsproj</Projects>
+      <Projects Name="PackWithForm.bpl">PackWithForm.bdsproj</Projects>
+      <Projects Name="DynaPackForm.exe">DynaPackForm.bdsproj</Projects>
+      <Projects Name="Targets">UsePackForm.exe PackWithForm.bpl DynaPackForm.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

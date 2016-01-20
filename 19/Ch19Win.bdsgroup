@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{8128F910-BE7A-4361-B0C4-FE818EAD3B10}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="IndySock1Client.exe">IndySock1\IndySock1Client.bdsproj</Projects>
+      <Projects Name="IndySock1Server.exe">IndySock1\IndySock1Server.bdsproj</Projects>
+      <Projects Name="WebFind.exe">WebFind\WebFind.bdsproj</Projects>
+      <Projects Name="HttpServ.exe">HttpServ\HttpServ.bdsproj</Projects>
+      <Projects Name="HtmlProd.exe">HtmlProd\HtmlProd.bdsproj</Projects>
+      <Projects Name="CgiDate.exe">CgiDate\CgiDate.bdsproj</Projects>
+      <Projects Name="BrokDebug.exe">BrokDemo\BrokDebug.bdsproj</Projects>
+      <Projects Name="BrokCgi.exe">BrokDemo\BrokCgi.bdsproj</Projects>
+      <Projects Name="BrokApache.dll">BrokDemo\BrokApache.bdsproj</Projects>
+      <Projects Name="Apache1.dll">Apache1\Apache1.bdsproj</Projects>
+      <Projects Name="CustQueDebug.exe">CustQueP\CustQueDebug.bdsproj</Projects>
+      <Projects Name="CustQueP.exe">CustQueP\CustQueP.bdsproj</Projects>
+      <Projects Name="WebCount.exe">WebCount\WebCount.bdsproj</Projects>
+      <Projects Name="WebSearchDebug.exe">WebSearcher\WebSearchDebug.bdsproj</Projects>
+      <Projects Name="WebSearcher.exe">WebSearcher\WebSearcher.bdsproj</Projects>
+      <Projects Name="IsapiDem.dll">IsapiDem\IsapiDem.bdsproj</Projects>
+      <Projects Name="BrokIsa.dll">BrokDemo\BrokIsa.bdsproj</Projects>
+      <Projects Name="Targets">IndySock1Client.exe IndySock1Server.exe WebFind.exe HttpServ.exe HtmlProd.exe CgiDate.exe BrokDebug.exe BrokCgi.exe BrokApache.dll Apache1.dll CustQueDebug.exe CustQueP.exe WebCount.exe WebSearchDebug.exe WebSearcher.exe IsapiDem.dll BrokIsa.dll</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

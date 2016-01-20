@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{473A819E-F246-4EEE-AAAE-340AFC9C78B9}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="IndySock1Client.exe">IndySock1Client.bdsproj</Projects>
+      <Projects Name="IndySock1Server.exe">IndySock1Server.bdsproj</Projects>
+      <Projects Name="Targets">IndySock1Client.exe IndySock1Server.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

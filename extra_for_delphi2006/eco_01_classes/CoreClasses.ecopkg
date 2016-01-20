@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Package Name="CoreClasses" Stereotype="" id="68231c82-c77b-4a9a-8270-92bbb95f4ab7" PluralSuffix="s">
+  <OwnedElement>
+    <Class Name="Person" Stereotype="" IsAbstract="False" id="7b4be22e-ec93-4089-9708-536bfe5fff4e" IsSealed="False" Interfaces="" />
+  </OwnedElement>
+</Package>

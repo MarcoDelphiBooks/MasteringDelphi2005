@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{EF6A1FAA-CDDC-4198-AD99-B769929720EC}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="AppServ1.exe">AppServ1\AppServ1.bdsproj</Projects>
+      <Projects Name="AppServ2.exe">AppServ2\AppServ2.bdsproj</Projects>
+      <Projects Name="AppSPlus.exe">AppSPlus\AppSPlus.bdsproj</Projects>
+      <Projects Name="ClientRefresh.exe">ClientRefresh\ClientRefresh.bdsproj</Projects>
+      <Projects Name="ThinCli1.exe">ThinCli1\ThinCli1.bdsproj</Projects>
+      <Projects Name="ThinCli2.exe">ThinCli2\ThinCli2.bdsproj</Projects>
+      <Projects Name="ThinPlus.exe">ThinPlus\ThinPlus.bdsproj</Projects>
+      <Projects Name="Targets">AppServ1.exe AppServ2.exe AppSPlus.exe ClientRefresh.exe ThinCli1.exe ThinCli2.exe ThinPlus.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

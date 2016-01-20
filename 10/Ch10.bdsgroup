@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{74F9A816-6844-4F3E-AE14-42F10B1F7D70}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="SampleRefactoringCode.exe">SampleRefactoringCode\SampleRefactoringCode.bdsproj</Projects>
+      <Projects Name="UnitTestDemo.exe">UnitTestDemo\UnitTestDemo.bdsproj</Projects>
+      <Projects Name="UnitTestDemoTests.exe">UnitTestDemo\UnitTestDemoTests.bdsproj</Projects>
+      <Projects Name="NUnitDemo.exe">NUnitDemo\NUnitDemo.bdsproj</Projects>
+      <Projects Name="NUnitDemoTests.dll">NUnitDemo\NUnitDemoTests.bdsproj</Projects>
+      <Projects Name="Targets">SampleRefactoringCode.exe UnitTestDemo.exe UnitTestDemoTests.exe NUnitDemo.exe NUnitDemoTests.dll</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

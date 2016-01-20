@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.Anim" Type="System.String" Value="Anim" Category="General" IsBrowsable="False" />
+</TgConfig>

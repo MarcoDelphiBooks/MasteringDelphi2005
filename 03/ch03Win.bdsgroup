@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{CC77117B-DC65-4FBF-B10E-A94CBE70D143}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="DBGridCol.exe">DBGridCol\DBGridCol.bdsproj</Projects>
+      <Projects Name="AbstractAnimals.exe">AbstractAnimals\AbstractAnimals.bdsproj</Projects>
+      <Projects Name="ClassRef.exe">ClassRef\ClassRef.bdsproj</Projects>
+      <Projects Name="CreateComps.exe">CreateComps\CreateComps.bdsproj</Projects>
+      <Projects Name="DateCopy.exe">DateCopy\DateCopy.bdsproj</Projects>
+      <Projects Name="DateProp.exe">DateProp\DateProp.bdsproj</Projects>
+      <Projects Name="Dates1.exe">Dates1\Dates1.bdsproj</Projects>
+      <Projects Name="ErrorLog.exe">ErrorLog\ErrorLog.bdsproj</Projects>
+      <Projects Name="Exceptions1.exe">Exception1\Exceptions1.bdsproj</Projects>
+      <Projects Name="FormProp.exe">FormProp\FormProp.bdsproj</Projects>
+      <Projects Name="IfDirective.exe">IfDirective\IfDirective.bdsproj</Projects>
+      <Projects Name="InliningTest.exe">InliningTest\InliningTest.bdsproj</Projects>
+      <Projects Name="NewDate.exe">NewDate\NewDate.bdsproj</Projects>
+      <Projects Name="PolyAnimals.exe">PolyAnimals\PolyAnimals.bdsproj</Projects>
+      <Projects Name="Protection.exe">Protection\Protection.bdsproj</Projects>
+      <Projects Name="Reintr.exe">Reintr\Reintr.bdsproj</Projects>
+      <Projects Name="TextProp.exe">TextProp\TextProp.bdsproj</Projects>
+      <Projects Name="TryFinally.exe">TryFinally\TryFinally.bdsproj</Projects>
+      <Projects Name="Viewdate.exe">ViewDate\Viewdate.bdsproj</Projects>
+      <Projects Name="Targets">DBGridCol.exe AbstractAnimals.exe ClassRef.exe CreateComps.exe DateCopy.exe DateProp.exe Dates1.exe ErrorLog.exe Exceptions1.exe FormProp.exe IfDirective.exe InliningTest.exe NewDate.exe PolyAnimals.exe Protection.exe Reintr.exe TextProp.exe TryFinally.exe Viewdate.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

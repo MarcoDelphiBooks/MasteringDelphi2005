@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{8F611BFB-14C5-4706-9F40-350994D3A854}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="RemotableLib.dll">RemotableLib.bdsproj</Projects>
+      <Projects Name="RemotableTest.exe">RemotableTest.bdsproj</Projects>
+      <Projects Name="RemotableClient.exe">RemotableClient.bdsproj</Projects>
+      <Projects Name="Targets">RemotableLib.dll RemotableTest.exe RemotableClient.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

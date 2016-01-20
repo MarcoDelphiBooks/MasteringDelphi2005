@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{76e02db4-e370-4fa5-bd37-697d3d7b14d7}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="FishClient.dproj" />
+    <Projects Include="SoapFishServer.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="FishClient">
+    <MSBuild Projects="FishClient.dproj" Targets="" />
+  </Target>
+  <Target Name="FishClient:Clean">
+    <MSBuild Projects="FishClient.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="FishClient:Make">
+    <MSBuild Projects="FishClient.dproj" Targets="Make" />
+  </Target>
+  <Target Name="SoapFishServer">
+    <MSBuild Projects="SoapFishServer.dproj" Targets="" />
+  </Target>
+  <Target Name="SoapFishServer:Clean">
+    <MSBuild Projects="SoapFishServer.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="SoapFishServer:Make">
+    <MSBuild Projects="SoapFishServer.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="FishClient;SoapFishServer" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="FishClient:Clean;SoapFishServer:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="FishClient:Make;SoapFishServer:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

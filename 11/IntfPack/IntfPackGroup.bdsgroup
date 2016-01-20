@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{88CD0993-AB1B-4EDB-BEF4-FB9048CD1945}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="IntfPack.bpl">IntfPack.bdsproj</Projects>
+      <Projects Name="IntfFormPack.bpl">IntfFormPack.bdsproj</Projects>
+      <Projects Name="UseIntfPack.exe">UseIntfPack.bdsproj</Projects>
+      <Projects Name="IntfFormPack2.bpl">IntfFormPack2.bdsproj</Projects>
+      <Projects Name="Targets">IntfPack.bpl IntfFormPack.bpl UseIntfPack.exe IntfFormPack2.bpl</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

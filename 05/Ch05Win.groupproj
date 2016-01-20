@@ -1,0 +1,168 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E188BC25-7956-4DB1-84E0-B15581A54666}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ClassInfo\ClassInfo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ConvDemo\ConvDemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="EuroConv\EuroConv.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FilesList\FilesList.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ForInContainer\ForInContainer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IfSender\IfSender.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MiniPack\MiniPack.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MiniSize\MiniSize.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Rounding\Rounding.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="StrDemo\StrDemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="VariantComp\VariantComp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WinVersion\WinVersion.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="ClassInfo">
+			<MSBuild Projects="ClassInfo\ClassInfo.dproj"/>
+		</Target>
+		<Target Name="ClassInfo:Clean">
+			<MSBuild Targets="Clean" Projects="ClassInfo\ClassInfo.dproj"/>
+		</Target>
+		<Target Name="ClassInfo:Make">
+			<MSBuild Targets="Make" Projects="ClassInfo\ClassInfo.dproj"/>
+		</Target>
+		<Target Name="ConvDemo">
+			<MSBuild Projects="ConvDemo\ConvDemo.dproj"/>
+		</Target>
+		<Target Name="ConvDemo:Clean">
+			<MSBuild Targets="Clean" Projects="ConvDemo\ConvDemo.dproj"/>
+		</Target>
+		<Target Name="ConvDemo:Make">
+			<MSBuild Targets="Make" Projects="ConvDemo\ConvDemo.dproj"/>
+		</Target>
+		<Target Name="EuroConv">
+			<MSBuild Projects="EuroConv\EuroConv.dproj"/>
+		</Target>
+		<Target Name="EuroConv:Clean">
+			<MSBuild Targets="Clean" Projects="EuroConv\EuroConv.dproj"/>
+		</Target>
+		<Target Name="EuroConv:Make">
+			<MSBuild Targets="Make" Projects="EuroConv\EuroConv.dproj"/>
+		</Target>
+		<Target Name="FilesList">
+			<MSBuild Projects="FilesList\FilesList.dproj"/>
+		</Target>
+		<Target Name="FilesList:Clean">
+			<MSBuild Targets="Clean" Projects="FilesList\FilesList.dproj"/>
+		</Target>
+		<Target Name="FilesList:Make">
+			<MSBuild Targets="Make" Projects="FilesList\FilesList.dproj"/>
+		</Target>
+		<Target Name="ForInContainer">
+			<MSBuild Projects="ForInContainer\ForInContainer.dproj"/>
+		</Target>
+		<Target Name="ForInContainer:Clean">
+			<MSBuild Targets="Clean" Projects="ForInContainer\ForInContainer.dproj"/>
+		</Target>
+		<Target Name="ForInContainer:Make">
+			<MSBuild Targets="Make" Projects="ForInContainer\ForInContainer.dproj"/>
+		</Target>
+		<Target Name="IfSender">
+			<MSBuild Projects="IfSender\IfSender.dproj"/>
+		</Target>
+		<Target Name="IfSender:Clean">
+			<MSBuild Targets="Clean" Projects="IfSender\IfSender.dproj"/>
+		</Target>
+		<Target Name="IfSender:Make">
+			<MSBuild Targets="Make" Projects="IfSender\IfSender.dproj"/>
+		</Target>
+		<Target Name="MiniPack">
+			<MSBuild Projects="MiniPack\MiniPack.dproj"/>
+		</Target>
+		<Target Name="MiniPack:Clean">
+			<MSBuild Targets="Clean" Projects="MiniPack\MiniPack.dproj"/>
+		</Target>
+		<Target Name="MiniPack:Make">
+			<MSBuild Targets="Make" Projects="MiniPack\MiniPack.dproj"/>
+		</Target>
+		<Target Name="MiniSize">
+			<MSBuild Projects="MiniSize\MiniSize.dproj"/>
+		</Target>
+		<Target Name="MiniSize:Clean">
+			<MSBuild Targets="Clean" Projects="MiniSize\MiniSize.dproj"/>
+		</Target>
+		<Target Name="MiniSize:Make">
+			<MSBuild Targets="Make" Projects="MiniSize\MiniSize.dproj"/>
+		</Target>
+		<Target Name="Rounding">
+			<MSBuild Projects="Rounding\Rounding.dproj"/>
+		</Target>
+		<Target Name="Rounding:Clean">
+			<MSBuild Targets="Clean" Projects="Rounding\Rounding.dproj"/>
+		</Target>
+		<Target Name="Rounding:Make">
+			<MSBuild Targets="Make" Projects="Rounding\Rounding.dproj"/>
+		</Target>
+		<Target Name="StrDemo">
+			<MSBuild Projects="StrDemo\StrDemo.dproj"/>
+		</Target>
+		<Target Name="StrDemo:Clean">
+			<MSBuild Targets="Clean" Projects="StrDemo\StrDemo.dproj"/>
+		</Target>
+		<Target Name="StrDemo:Make">
+			<MSBuild Targets="Make" Projects="StrDemo\StrDemo.dproj"/>
+		</Target>
+		<Target Name="VariantComp">
+			<MSBuild Projects="VariantComp\VariantComp.dproj"/>
+		</Target>
+		<Target Name="VariantComp:Clean">
+			<MSBuild Targets="Clean" Projects="VariantComp\VariantComp.dproj"/>
+		</Target>
+		<Target Name="VariantComp:Make">
+			<MSBuild Targets="Make" Projects="VariantComp\VariantComp.dproj"/>
+		</Target>
+		<Target Name="WinVersion">
+			<MSBuild Projects="WinVersion\WinVersion.dproj"/>
+		</Target>
+		<Target Name="WinVersion:Clean">
+			<MSBuild Targets="Clean" Projects="WinVersion\WinVersion.dproj"/>
+		</Target>
+		<Target Name="WinVersion:Make">
+			<MSBuild Targets="Make" Projects="WinVersion\WinVersion.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="ClassInfo;ConvDemo;EuroConv;FilesList;ForInContainer;IfSender;MiniPack;MiniSize;Rounding;StrDemo;VariantComp;WinVersion"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="ClassInfo:Clean;ConvDemo:Clean;EuroConv:Clean;FilesList:Clean;ForInContainer:Clean;IfSender:Clean;MiniPack:Clean;MiniSize:Clean;Rounding:Clean;StrDemo:Clean;VariantComp:Clean;WinVersion:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="ClassInfo:Make;ConvDemo:Make;EuroConv:Make;FilesList:Make;ForInContainer:Make;IfSender:Make;MiniPack:Make;MiniSize:Make;Rounding:Make;StrDemo:Make;VariantComp:Make;WinVersion:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

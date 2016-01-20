@@ -1,0 +1,252 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{C550B3F3-84D4-4F67-807C-759FE0BA7C2D}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="DBGridCol\DBGridCol.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="AbstractAnimals\AbstractAnimals.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ClassRef\ClassRef.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CreateComps\CreateComps.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DateCopy\DateCopy.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DateProp\DateProp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Dates1\Dates1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ErrorLog\ErrorLog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Exception1\Exceptions1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FormProp\FormProp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IfDirective\IfDirective.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="InliningTest\InliningTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="NewDate\NewDate.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PolyAnimals\PolyAnimals.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Protection\Protection.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Reintr\Reintr.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TextProp\TextProp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TryFinally\TryFinally.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ViewDate\Viewdate.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DBGridCol">
+			<MSBuild Projects="DBGridCol\DBGridCol.dproj"/>
+		</Target>
+		<Target Name="DBGridCol:Clean">
+			<MSBuild Targets="Clean" Projects="DBGridCol\DBGridCol.dproj"/>
+		</Target>
+		<Target Name="DBGridCol:Make">
+			<MSBuild Targets="Make" Projects="DBGridCol\DBGridCol.dproj"/>
+		</Target>
+		<Target Name="AbstractAnimals">
+			<MSBuild Projects="AbstractAnimals\AbstractAnimals.dproj"/>
+		</Target>
+		<Target Name="AbstractAnimals:Clean">
+			<MSBuild Targets="Clean" Projects="AbstractAnimals\AbstractAnimals.dproj"/>
+		</Target>
+		<Target Name="AbstractAnimals:Make">
+			<MSBuild Targets="Make" Projects="AbstractAnimals\AbstractAnimals.dproj"/>
+		</Target>
+		<Target Name="ClassRef">
+			<MSBuild Projects="ClassRef\ClassRef.dproj"/>
+		</Target>
+		<Target Name="ClassRef:Clean">
+			<MSBuild Targets="Clean" Projects="ClassRef\ClassRef.dproj"/>
+		</Target>
+		<Target Name="ClassRef:Make">
+			<MSBuild Targets="Make" Projects="ClassRef\ClassRef.dproj"/>
+		</Target>
+		<Target Name="CreateComps">
+			<MSBuild Projects="CreateComps\CreateComps.dproj"/>
+		</Target>
+		<Target Name="CreateComps:Clean">
+			<MSBuild Targets="Clean" Projects="CreateComps\CreateComps.dproj"/>
+		</Target>
+		<Target Name="CreateComps:Make">
+			<MSBuild Targets="Make" Projects="CreateComps\CreateComps.dproj"/>
+		</Target>
+		<Target Name="DateCopy">
+			<MSBuild Projects="DateCopy\DateCopy.dproj"/>
+		</Target>
+		<Target Name="DateCopy:Clean">
+			<MSBuild Targets="Clean" Projects="DateCopy\DateCopy.dproj"/>
+		</Target>
+		<Target Name="DateCopy:Make">
+			<MSBuild Targets="Make" Projects="DateCopy\DateCopy.dproj"/>
+		</Target>
+		<Target Name="DateProp">
+			<MSBuild Projects="DateProp\DateProp.dproj"/>
+		</Target>
+		<Target Name="DateProp:Clean">
+			<MSBuild Targets="Clean" Projects="DateProp\DateProp.dproj"/>
+		</Target>
+		<Target Name="DateProp:Make">
+			<MSBuild Targets="Make" Projects="DateProp\DateProp.dproj"/>
+		</Target>
+		<Target Name="Dates1">
+			<MSBuild Projects="Dates1\Dates1.dproj"/>
+		</Target>
+		<Target Name="Dates1:Clean">
+			<MSBuild Targets="Clean" Projects="Dates1\Dates1.dproj"/>
+		</Target>
+		<Target Name="Dates1:Make">
+			<MSBuild Targets="Make" Projects="Dates1\Dates1.dproj"/>
+		</Target>
+		<Target Name="ErrorLog">
+			<MSBuild Projects="ErrorLog\ErrorLog.dproj"/>
+		</Target>
+		<Target Name="ErrorLog:Clean">
+			<MSBuild Targets="Clean" Projects="ErrorLog\ErrorLog.dproj"/>
+		</Target>
+		<Target Name="ErrorLog:Make">
+			<MSBuild Targets="Make" Projects="ErrorLog\ErrorLog.dproj"/>
+		</Target>
+		<Target Name="Exceptions1">
+			<MSBuild Projects="Exception1\Exceptions1.dproj"/>
+		</Target>
+		<Target Name="Exceptions1:Clean">
+			<MSBuild Targets="Clean" Projects="Exception1\Exceptions1.dproj"/>
+		</Target>
+		<Target Name="Exceptions1:Make">
+			<MSBuild Targets="Make" Projects="Exception1\Exceptions1.dproj"/>
+		</Target>
+		<Target Name="FormProp">
+			<MSBuild Projects="FormProp\FormProp.dproj"/>
+		</Target>
+		<Target Name="FormProp:Clean">
+			<MSBuild Targets="Clean" Projects="FormProp\FormProp.dproj"/>
+		</Target>
+		<Target Name="FormProp:Make">
+			<MSBuild Targets="Make" Projects="FormProp\FormProp.dproj"/>
+		</Target>
+		<Target Name="IfDirective">
+			<MSBuild Projects="IfDirective\IfDirective.dproj"/>
+		</Target>
+		<Target Name="IfDirective:Clean">
+			<MSBuild Targets="Clean" Projects="IfDirective\IfDirective.dproj"/>
+		</Target>
+		<Target Name="IfDirective:Make">
+			<MSBuild Targets="Make" Projects="IfDirective\IfDirective.dproj"/>
+		</Target>
+		<Target Name="InliningTest">
+			<MSBuild Projects="InliningTest\InliningTest.dproj"/>
+		</Target>
+		<Target Name="InliningTest:Clean">
+			<MSBuild Targets="Clean" Projects="InliningTest\InliningTest.dproj"/>
+		</Target>
+		<Target Name="InliningTest:Make">
+			<MSBuild Targets="Make" Projects="InliningTest\InliningTest.dproj"/>
+		</Target>
+		<Target Name="NewDate">
+			<MSBuild Projects="NewDate\NewDate.dproj"/>
+		</Target>
+		<Target Name="NewDate:Clean">
+			<MSBuild Targets="Clean" Projects="NewDate\NewDate.dproj"/>
+		</Target>
+		<Target Name="NewDate:Make">
+			<MSBuild Targets="Make" Projects="NewDate\NewDate.dproj"/>
+		</Target>
+		<Target Name="PolyAnimals">
+			<MSBuild Projects="PolyAnimals\PolyAnimals.dproj"/>
+		</Target>
+		<Target Name="PolyAnimals:Clean">
+			<MSBuild Targets="Clean" Projects="PolyAnimals\PolyAnimals.dproj"/>
+		</Target>
+		<Target Name="PolyAnimals:Make">
+			<MSBuild Targets="Make" Projects="PolyAnimals\PolyAnimals.dproj"/>
+		</Target>
+		<Target Name="Protection">
+			<MSBuild Projects="Protection\Protection.dproj"/>
+		</Target>
+		<Target Name="Protection:Clean">
+			<MSBuild Targets="Clean" Projects="Protection\Protection.dproj"/>
+		</Target>
+		<Target Name="Protection:Make">
+			<MSBuild Targets="Make" Projects="Protection\Protection.dproj"/>
+		</Target>
+		<Target Name="Reintr">
+			<MSBuild Projects="Reintr\Reintr.dproj"/>
+		</Target>
+		<Target Name="Reintr:Clean">
+			<MSBuild Targets="Clean" Projects="Reintr\Reintr.dproj"/>
+		</Target>
+		<Target Name="Reintr:Make">
+			<MSBuild Targets="Make" Projects="Reintr\Reintr.dproj"/>
+		</Target>
+		<Target Name="TextProp">
+			<MSBuild Projects="TextProp\TextProp.dproj"/>
+		</Target>
+		<Target Name="TextProp:Clean">
+			<MSBuild Targets="Clean" Projects="TextProp\TextProp.dproj"/>
+		</Target>
+		<Target Name="TextProp:Make">
+			<MSBuild Targets="Make" Projects="TextProp\TextProp.dproj"/>
+		</Target>
+		<Target Name="TryFinally">
+			<MSBuild Projects="TryFinally\TryFinally.dproj"/>
+		</Target>
+		<Target Name="TryFinally:Clean">
+			<MSBuild Targets="Clean" Projects="TryFinally\TryFinally.dproj"/>
+		</Target>
+		<Target Name="TryFinally:Make">
+			<MSBuild Targets="Make" Projects="TryFinally\TryFinally.dproj"/>
+		</Target>
+		<Target Name="Viewdate">
+			<MSBuild Projects="ViewDate\Viewdate.dproj"/>
+		</Target>
+		<Target Name="Viewdate:Clean">
+			<MSBuild Targets="Clean" Projects="ViewDate\Viewdate.dproj"/>
+		</Target>
+		<Target Name="Viewdate:Make">
+			<MSBuild Targets="Make" Projects="ViewDate\Viewdate.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DBGridCol;AbstractAnimals;ClassRef;CreateComps;DateCopy;DateProp;Dates1;ErrorLog;Exceptions1;FormProp;IfDirective;InliningTest;NewDate;PolyAnimals;Protection;Reintr;TextProp;TryFinally;Viewdate"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DBGridCol:Clean;AbstractAnimals:Clean;ClassRef:Clean;CreateComps:Clean;DateCopy:Clean;DateProp:Clean;Dates1:Clean;ErrorLog:Clean;Exceptions1:Clean;FormProp:Clean;IfDirective:Clean;InliningTest:Clean;NewDate:Clean;PolyAnimals:Clean;Protection:Clean;Reintr:Clean;TextProp:Clean;TryFinally:Clean;Viewdate:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DBGridCol:Make;AbstractAnimals:Make;ClassRef:Make;CreateComps:Make;DateCopy:Make;DateProp:Make;Dates1:Make;ErrorLog:Make;Exceptions1:Make;FormProp:Make;IfDirective:Make;InliningTest:Make;NewDate:Make;PolyAnimals:Make;Protection:Make;Reintr:Make;TextProp:Make;TryFinally:Make;Viewdate:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

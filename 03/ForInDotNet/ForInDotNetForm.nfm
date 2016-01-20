@@ -1,0 +1,96 @@
+object Form3: TForm3
+  Caption = 'ForInDotNet'
+  ClientHeight = 317
+  ClientWidth = 504
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Left = 0
+  Top = 0
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Caption = '"Manual" Enumerator'
+    TabOrder = 0
+    Left = 40
+    Top = 32
+    Width = 153
+    Height = 25
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Caption = 'For..in Enumerator'
+    TabOrder = 1
+    Left = 40
+    Top = 64
+    Width = 153
+    Height = 25
+    OnClick = Button2Click
+  end
+  object ListBox1: TListBox
+    ItemHeight = 13
+    TabOrder = 2
+    Left = 224
+    Top = 32
+    Width = 217
+    Height = 257
+  end
+  object Button3: TButton
+    Caption = 'For..in String'
+    TabOrder = 3
+    Left = 40
+    Top = 96
+    Width = 153
+    Height = 25
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Caption = 'For..in Set'
+    TabOrder = 4
+    Left = 40
+    Top = 128
+    Width = 153
+    Height = 25
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Caption = 'For..in Components'
+    TabOrder = 5
+    Left = 40
+    Top = 160
+    Width = 153
+    Height = 25
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Caption = 'For..in StringList'
+    TabOrder = 6
+    Left = 40
+    Top = 192
+    Width = 153
+    Height = 25
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Caption = 'For..in Custom Enumerator'
+    TabOrder = 7
+    Left = 40
+    Top = 224
+    Width = 153
+    Height = 25
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Caption = 'For..in .NET Container'
+    TabOrder = 8
+    Left = 40
+    Top = 256
+    Width = 153
+    Height = 25
+    OnClick = Button8Click
+  end
+end

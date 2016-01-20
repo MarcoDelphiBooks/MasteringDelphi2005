@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<books text="Books">
+  <book>
+    <title>Mastering Borland Delphi 2005</title>
+    <author>Cantu</author>
+  </book>
+  <book>
+    <title>Delphi for .NET Developer's Guide</title>
+    <author>Pacheco</author>
+  </book>
+  <book>
+    <title>Mastering Delphi 7</title>
+    <author>Cantu</author>
+  </book>
+  <book>
+    <title>The Firebird Book</title>
+    <author>Borrie</author>
+  </book>
+  <book>
+    <title>Delphi Developer's Handbook</title>
+    <author>Cantu</author>
+    <author>Gooch</author>
+  </book>
+  <book>
+    <title>Delphi in a Nutshell</title>
+    <author>Lischner</author>
+  </book>
+  <ebook>
+    <title>Essential Pascal</title>
+    <url>http://www.marcocantu.com</url>
+    <author>Cantu</author>
+  </ebook>
+  <ebook>
+    <title>Thinking in Java</title>
+    <url>http://www.bruceeckel.com</url>
+    <author>Eckel</author>
+  </ebook>
+</books>

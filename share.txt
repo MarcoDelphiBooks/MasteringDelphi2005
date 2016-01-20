@@ -1,0 +1,79 @@
+http://www.installationexcellence.com/articles/VistaWithDelphi/Index.html
+http://bdn.borland.com/article/33857
+
+
+http://support.borland.com/thread.jspa?messageID=20836
+
+TASK DIALOGS:
+
+http://www.danielmoth.com/Blog/2006/06/vista-taskdialog.html
+
+wINDOWS RESOURCE PROTECTION
+
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wfp/setup/windows_file_protection_start_page.asp
+
+
+The Windows Vista Developer Story: Application Compatibility Cookbook
+
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnlong/html/AppComp.asp
+
+nEW apis
+
+http://msdn2.microsoft.com/en-us/library/aa383874.aspx
+
+
+GADGET:
+
+http://www.winfxitalia.com/articoli/windows-vista/gadget-siderbar-windows-vista.aspx
+
+
+
+keypress...
+http://qc.borland.com/wc/qcmain.aspx?d=37403
+
+
+BLOGGER...
+
+Our programs does have a few issues. We try to write a file to the root of current drive, which isn't allowed. I've to figure where/how to do this instead. We use a function called ideSN to get the serial number of the current hard drive - this function throws a "access denied" exception and returns a blank. Need to find a new way of getting the serial number.
+
+
+
+This is a solution dreamed up by the legal department - it doesn't solve the problem, but it absolves MS from all harm, as it places all the responsibility on the user to read all dialogue-boxes - and understand them. And we all know that it doesn't work that way. The more dialogues you pop-up with questions, the less the user will read them. And a couple of questions every time the user tries to due the tiniest of tasks, and you'll soon have them trained to ask "Yes", "No" and "Ok" at the right times, with out them reading a single message.
+
+
+
+VISTA UI:
+http://www.winsupersite.com/reviews/winvista_05.asp
+
+
+
+
+
+PILASTRI:
+http://www.microsoft.com/italy/msdn/risorsemsdn/windowsvista/pilastri_windows.mspx
+(CERCARE INGLESE)
+
+
+Connettività totale	Connettività totale
+
+La maggior parte delle applicazioni sviluppate attualmente ha l'esigenza di comunicare con altri programmi. Windows Communication Foundation è il modello di programmazione unificato realizzato da Microsoft per la creazione di applicazioni Web service con codice gestito, che estende .NET Framework per consentire agli sviluppatori di realizzare servizi sicuri, affidabili e transazionali.
+Esperienza utente ottimizzata	Esperienza utente ottimizzata
+
+Gli utenti auspicano un ambiente applicativo avanzato e coerente con l'interfaccia utente della shell. Windows Vista consente agli sviluppatori di assicurare un'esperienza utente avanzata e su misura per l'utilizzo di applicazioni e metadati personali.
+Integrazione dei dati	Integrazione dei dati
+
+Windows Vista introduce XML Paper Specification, o XPS, precedentemente noto con il nome in codice "Metro", che descrive il set di convenzioni per l'utilizzo del linguaggio XML e altre tecnologie disponibili per descrivere un contenitore per i dati delle applicazioni.
+Sicurezza totale	Sicurezza totale
+
+Windows Vista introduce dei cambiamenti nel modello tradizionale di privilegi di Windows per impedire agli utenti di eseguire programmi che potrebbero avviare operazioni che l'utente non intende eseguire o autorizzare
+Un'infrastruttura di ricerca più avanzata	Un'infrastruttura di ricerca più avanzata
+
+Windows Vista consente agli sviluppatori di estendere l'infrastruttura di ricerca, permettendo agli utenti di organizzare, cercare e visualizzare i dati in maniera più immediata. Inoltre, gli sviluppatori possono trarre vantaggio dagli innumerevoli miglioramenti introdotti per garantire agli utenti un'esperienza ottimizzata.
+Sistemi portatili	Sistemi portatili
+
+I computer portatili pongono gli sviluppatori di fronte ad alcune sfide come il risparmio di energia, il riconoscimento della presenza in rete, la possibilità di accedere ai dati più importanti in modalità offline, e altro ancora. Microsoft Windows Vista , precedentemente noto con il nome in codice "Longhorn", introduce innovazioni che agevolano le attività di sviluppo sotto tutti questi aspetti.
+Affidabilità ai massimi livelli	Affidabilità ai massimi livelli
+
+
+
+

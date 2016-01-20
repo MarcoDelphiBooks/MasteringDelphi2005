@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{251BE320-D920-4D7C-862C-402DEB78B38B}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="DomCreateNet.exe">DomCreateNet.bdsproj</Projects>
+      <Projects Name="DomCreate.exe">DomCreate.bdsproj</Projects>
+      <Projects Name="Targets">DomCreateNet.exe DomCreate.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

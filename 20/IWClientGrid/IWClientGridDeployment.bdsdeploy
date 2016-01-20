@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<DeployTarget>
+  <Title>Target1</Title>
+  <Active>0</Active>
+  <Options>
+    <LogFilename>DeployLog.txt</LogFilename>
+    <EnableLogging>0</EnableLogging>
+    <ShowIgnoredGroupsAndFiles>1</ShowIgnoredGroupsAndFiles>
+  </Options>
+  <Rules>
+    <Rule>
+      <Title>Executables</Title>
+      <Filter>*.exe</Filter>
+      <Ignored>0</Ignored>
+    </Rule>
+    <Rule>
+      <Title>HTML Files</Title>
+      <Filter>*.html;*.htm;*.css;*.js</Filter>
+      <Ignored>0</Ignored>
+    </Rule>
+    <Rule>
+      <Title>Image Files</Title>
+      <Filter>*.jpg;*.bmp;*.dib;*.png;*.tiff;*.gif</Filter>
+      <Ignored>0</Ignored>
+    </Rule>
+    <Rule>
+      <Title>Other Files</Title>
+      <Filter>*.*</Filter>
+      <Ignored>1</Ignored>
+    </Rule>
+  </Rules>
+  <Locations>
+    <Location>
+      <LocationID>Borland.Studio.Directory</LocationID>
+      <Borland.Studio.Directory>
+        <Active>1</Active>
+        <Directory>C:\home\web\www.marcocantu.com\scripts</Directory>
+      </Borland.Studio.Directory>
+    </Location>
+    <Location>
+      <LocationID>Borland.Studio.FTP</LocationID>
+      <Borland.Studio.FTP>
+        <Active>0</Active>
+        <Server></Server>
+        <Port>21</Port>
+        <Folder></Folder>
+        <UserName></UserName>
+        <PassiveMode>0</PassiveMode>
+        <AnonymousLogin>0</AnonymousLogin>
+      </Borland.Studio.FTP>
+    </Location>
+  </Locations>
+  <RenamedFiles/>
+  <IgnoredFiles/>
+  <LocationHistories/>
+</DeployTarget>

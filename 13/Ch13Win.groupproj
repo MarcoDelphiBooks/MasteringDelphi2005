@@ -1,0 +1,228 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{AE57358B-1753-423A-A92E-FF3A61A3E257}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Calc\Calc.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CdsCalcs\CdsCalcs.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CustLookup\CustLookup.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DbAware\DbAware.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DbError\DbError.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DragToGrid\DragToGrid.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DrawData\DrawData.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FieldAcc\FieldAcc.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FieldLookup\FieldLookup.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MastDet\MastDet.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MltGrid\MltGrid.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MyBase1\MyBase1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MyBase2\MyBase2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="NonAware\NonAware.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="NullDates\NullDates.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SendToDb\SendToDb.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Total\Total.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Calc">
+			<MSBuild Projects="Calc\Calc.dproj"/>
+		</Target>
+		<Target Name="Calc:Clean">
+			<MSBuild Targets="Clean" Projects="Calc\Calc.dproj"/>
+		</Target>
+		<Target Name="Calc:Make">
+			<MSBuild Targets="Make" Projects="Calc\Calc.dproj"/>
+		</Target>
+		<Target Name="CdsCalcs">
+			<MSBuild Projects="CdsCalcs\CdsCalcs.dproj"/>
+		</Target>
+		<Target Name="CdsCalcs:Clean">
+			<MSBuild Targets="Clean" Projects="CdsCalcs\CdsCalcs.dproj"/>
+		</Target>
+		<Target Name="CdsCalcs:Make">
+			<MSBuild Targets="Make" Projects="CdsCalcs\CdsCalcs.dproj"/>
+		</Target>
+		<Target Name="CustLookup">
+			<MSBuild Projects="CustLookup\CustLookup.dproj"/>
+		</Target>
+		<Target Name="CustLookup:Clean">
+			<MSBuild Targets="Clean" Projects="CustLookup\CustLookup.dproj"/>
+		</Target>
+		<Target Name="CustLookup:Make">
+			<MSBuild Targets="Make" Projects="CustLookup\CustLookup.dproj"/>
+		</Target>
+		<Target Name="DbAware">
+			<MSBuild Projects="DbAware\DbAware.dproj"/>
+		</Target>
+		<Target Name="DbAware:Clean">
+			<MSBuild Targets="Clean" Projects="DbAware\DbAware.dproj"/>
+		</Target>
+		<Target Name="DbAware:Make">
+			<MSBuild Targets="Make" Projects="DbAware\DbAware.dproj"/>
+		</Target>
+		<Target Name="DbError">
+			<MSBuild Projects="DbError\DbError.dproj"/>
+		</Target>
+		<Target Name="DbError:Clean">
+			<MSBuild Targets="Clean" Projects="DbError\DbError.dproj"/>
+		</Target>
+		<Target Name="DbError:Make">
+			<MSBuild Targets="Make" Projects="DbError\DbError.dproj"/>
+		</Target>
+		<Target Name="DragToGrid">
+			<MSBuild Projects="DragToGrid\DragToGrid.dproj"/>
+		</Target>
+		<Target Name="DragToGrid:Clean">
+			<MSBuild Targets="Clean" Projects="DragToGrid\DragToGrid.dproj"/>
+		</Target>
+		<Target Name="DragToGrid:Make">
+			<MSBuild Targets="Make" Projects="DragToGrid\DragToGrid.dproj"/>
+		</Target>
+		<Target Name="DrawData">
+			<MSBuild Projects="DrawData\DrawData.dproj"/>
+		</Target>
+		<Target Name="DrawData:Clean">
+			<MSBuild Targets="Clean" Projects="DrawData\DrawData.dproj"/>
+		</Target>
+		<Target Name="DrawData:Make">
+			<MSBuild Targets="Make" Projects="DrawData\DrawData.dproj"/>
+		</Target>
+		<Target Name="FieldAcc">
+			<MSBuild Projects="FieldAcc\FieldAcc.dproj"/>
+		</Target>
+		<Target Name="FieldAcc:Clean">
+			<MSBuild Targets="Clean" Projects="FieldAcc\FieldAcc.dproj"/>
+		</Target>
+		<Target Name="FieldAcc:Make">
+			<MSBuild Targets="Make" Projects="FieldAcc\FieldAcc.dproj"/>
+		</Target>
+		<Target Name="FieldLookup">
+			<MSBuild Projects="FieldLookup\FieldLookup.dproj"/>
+		</Target>
+		<Target Name="FieldLookup:Clean">
+			<MSBuild Targets="Clean" Projects="FieldLookup\FieldLookup.dproj"/>
+		</Target>
+		<Target Name="FieldLookup:Make">
+			<MSBuild Targets="Make" Projects="FieldLookup\FieldLookup.dproj"/>
+		</Target>
+		<Target Name="MastDet">
+			<MSBuild Projects="MastDet\MastDet.dproj"/>
+		</Target>
+		<Target Name="MastDet:Clean">
+			<MSBuild Targets="Clean" Projects="MastDet\MastDet.dproj"/>
+		</Target>
+		<Target Name="MastDet:Make">
+			<MSBuild Targets="Make" Projects="MastDet\MastDet.dproj"/>
+		</Target>
+		<Target Name="MltGrid">
+			<MSBuild Projects="MltGrid\MltGrid.dproj"/>
+		</Target>
+		<Target Name="MltGrid:Clean">
+			<MSBuild Targets="Clean" Projects="MltGrid\MltGrid.dproj"/>
+		</Target>
+		<Target Name="MltGrid:Make">
+			<MSBuild Targets="Make" Projects="MltGrid\MltGrid.dproj"/>
+		</Target>
+		<Target Name="MyBase1">
+			<MSBuild Projects="MyBase1\MyBase1.dproj"/>
+		</Target>
+		<Target Name="MyBase1:Clean">
+			<MSBuild Targets="Clean" Projects="MyBase1\MyBase1.dproj"/>
+		</Target>
+		<Target Name="MyBase1:Make">
+			<MSBuild Targets="Make" Projects="MyBase1\MyBase1.dproj"/>
+		</Target>
+		<Target Name="MyBase2">
+			<MSBuild Projects="MyBase2\MyBase2.dproj"/>
+		</Target>
+		<Target Name="MyBase2:Clean">
+			<MSBuild Targets="Clean" Projects="MyBase2\MyBase2.dproj"/>
+		</Target>
+		<Target Name="MyBase2:Make">
+			<MSBuild Targets="Make" Projects="MyBase2\MyBase2.dproj"/>
+		</Target>
+		<Target Name="NonAware">
+			<MSBuild Projects="NonAware\NonAware.dproj"/>
+		</Target>
+		<Target Name="NonAware:Clean">
+			<MSBuild Targets="Clean" Projects="NonAware\NonAware.dproj"/>
+		</Target>
+		<Target Name="NonAware:Make">
+			<MSBuild Targets="Make" Projects="NonAware\NonAware.dproj"/>
+		</Target>
+		<Target Name="NullDates">
+			<MSBuild Projects="NullDates\NullDates.dproj"/>
+		</Target>
+		<Target Name="NullDates:Clean">
+			<MSBuild Targets="Clean" Projects="NullDates\NullDates.dproj"/>
+		</Target>
+		<Target Name="NullDates:Make">
+			<MSBuild Targets="Make" Projects="NullDates\NullDates.dproj"/>
+		</Target>
+		<Target Name="SendToDb">
+			<MSBuild Projects="SendToDb\SendToDb.dproj"/>
+		</Target>
+		<Target Name="SendToDb:Clean">
+			<MSBuild Targets="Clean" Projects="SendToDb\SendToDb.dproj"/>
+		</Target>
+		<Target Name="SendToDb:Make">
+			<MSBuild Targets="Make" Projects="SendToDb\SendToDb.dproj"/>
+		</Target>
+		<Target Name="Total">
+			<MSBuild Projects="Total\Total.dproj"/>
+		</Target>
+		<Target Name="Total:Clean">
+			<MSBuild Targets="Clean" Projects="Total\Total.dproj"/>
+		</Target>
+		<Target Name="Total:Make">
+			<MSBuild Targets="Make" Projects="Total\Total.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Calc;CdsCalcs;CustLookup;DbAware;DbError;DragToGrid;DrawData;FieldAcc;FieldLookup;MastDet;MltGrid;MyBase1;MyBase2;NonAware;NullDates;SendToDb;Total"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Calc:Clean;CdsCalcs:Clean;CustLookup:Clean;DbAware:Clean;DbError:Clean;DragToGrid:Clean;DrawData:Clean;FieldAcc:Clean;FieldLookup:Clean;MastDet:Clean;MltGrid:Clean;MyBase1:Clean;MyBase2:Clean;NonAware:Clean;NullDates:Clean;SendToDb:Clean;Total:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Calc:Make;CdsCalcs:Make;CustLookup:Make;DbAware:Make;DbError:Make;DragToGrid:Make;DrawData:Make;FieldAcc:Make;FieldLookup:Make;MastDet:Make;MltGrid:Make;MyBase1:Make;MyBase2:Make;NonAware:Make;NullDates:Make;SendToDb:Make;Total:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

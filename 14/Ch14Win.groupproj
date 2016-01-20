@@ -1,0 +1,168 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{334794B8-F195-4FD6-A039-603A5E9EC6E8}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="UniPrint\UniPrint.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TranSample\transample.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SchemaTest\SchemaTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="RWBlocks\RWBlocks.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ParQuery\ParQuery.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IbxUpdSql\IbxUpdSql.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IbxMon\IbxMon.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IbxEmp\IbxEmp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="GetMax\GetMax.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DbxSingle\DbxSingle.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DbxMulti\DbxMulti.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CdsDelta\CdsDelta.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="UniPrint">
+			<MSBuild Projects="UniPrint\UniPrint.dproj"/>
+		</Target>
+		<Target Name="UniPrint:Clean">
+			<MSBuild Targets="Clean" Projects="UniPrint\UniPrint.dproj"/>
+		</Target>
+		<Target Name="UniPrint:Make">
+			<MSBuild Targets="Make" Projects="UniPrint\UniPrint.dproj"/>
+		</Target>
+		<Target Name="transample">
+			<MSBuild Projects="TranSample\transample.dproj"/>
+		</Target>
+		<Target Name="transample:Clean">
+			<MSBuild Targets="Clean" Projects="TranSample\transample.dproj"/>
+		</Target>
+		<Target Name="transample:Make">
+			<MSBuild Targets="Make" Projects="TranSample\transample.dproj"/>
+		</Target>
+		<Target Name="SchemaTest">
+			<MSBuild Projects="SchemaTest\SchemaTest.dproj"/>
+		</Target>
+		<Target Name="SchemaTest:Clean">
+			<MSBuild Targets="Clean" Projects="SchemaTest\SchemaTest.dproj"/>
+		</Target>
+		<Target Name="SchemaTest:Make">
+			<MSBuild Targets="Make" Projects="SchemaTest\SchemaTest.dproj"/>
+		</Target>
+		<Target Name="RWBlocks">
+			<MSBuild Projects="RWBlocks\RWBlocks.dproj"/>
+		</Target>
+		<Target Name="RWBlocks:Clean">
+			<MSBuild Targets="Clean" Projects="RWBlocks\RWBlocks.dproj"/>
+		</Target>
+		<Target Name="RWBlocks:Make">
+			<MSBuild Targets="Make" Projects="RWBlocks\RWBlocks.dproj"/>
+		</Target>
+		<Target Name="ParQuery">
+			<MSBuild Projects="ParQuery\ParQuery.dproj"/>
+		</Target>
+		<Target Name="ParQuery:Clean">
+			<MSBuild Targets="Clean" Projects="ParQuery\ParQuery.dproj"/>
+		</Target>
+		<Target Name="ParQuery:Make">
+			<MSBuild Targets="Make" Projects="ParQuery\ParQuery.dproj"/>
+		</Target>
+		<Target Name="IbxUpdSql">
+			<MSBuild Projects="IbxUpdSql\IbxUpdSql.dproj"/>
+		</Target>
+		<Target Name="IbxUpdSql:Clean">
+			<MSBuild Targets="Clean" Projects="IbxUpdSql\IbxUpdSql.dproj"/>
+		</Target>
+		<Target Name="IbxUpdSql:Make">
+			<MSBuild Targets="Make" Projects="IbxUpdSql\IbxUpdSql.dproj"/>
+		</Target>
+		<Target Name="IbxMon">
+			<MSBuild Projects="IbxMon\IbxMon.dproj"/>
+		</Target>
+		<Target Name="IbxMon:Clean">
+			<MSBuild Targets="Clean" Projects="IbxMon\IbxMon.dproj"/>
+		</Target>
+		<Target Name="IbxMon:Make">
+			<MSBuild Targets="Make" Projects="IbxMon\IbxMon.dproj"/>
+		</Target>
+		<Target Name="IbxEmp">
+			<MSBuild Projects="IbxEmp\IbxEmp.dproj"/>
+		</Target>
+		<Target Name="IbxEmp:Clean">
+			<MSBuild Targets="Clean" Projects="IbxEmp\IbxEmp.dproj"/>
+		</Target>
+		<Target Name="IbxEmp:Make">
+			<MSBuild Targets="Make" Projects="IbxEmp\IbxEmp.dproj"/>
+		</Target>
+		<Target Name="GetMax">
+			<MSBuild Projects="GetMax\GetMax.dproj"/>
+		</Target>
+		<Target Name="GetMax:Clean">
+			<MSBuild Targets="Clean" Projects="GetMax\GetMax.dproj"/>
+		</Target>
+		<Target Name="GetMax:Make">
+			<MSBuild Targets="Make" Projects="GetMax\GetMax.dproj"/>
+		</Target>
+		<Target Name="DbxSingle">
+			<MSBuild Projects="DbxSingle\DbxSingle.dproj"/>
+		</Target>
+		<Target Name="DbxSingle:Clean">
+			<MSBuild Targets="Clean" Projects="DbxSingle\DbxSingle.dproj"/>
+		</Target>
+		<Target Name="DbxSingle:Make">
+			<MSBuild Targets="Make" Projects="DbxSingle\DbxSingle.dproj"/>
+		</Target>
+		<Target Name="DbxMulti">
+			<MSBuild Projects="DbxMulti\DbxMulti.dproj"/>
+		</Target>
+		<Target Name="DbxMulti:Clean">
+			<MSBuild Targets="Clean" Projects="DbxMulti\DbxMulti.dproj"/>
+		</Target>
+		<Target Name="DbxMulti:Make">
+			<MSBuild Targets="Make" Projects="DbxMulti\DbxMulti.dproj"/>
+		</Target>
+		<Target Name="CdsDelta">
+			<MSBuild Projects="CdsDelta\CdsDelta.dproj"/>
+		</Target>
+		<Target Name="CdsDelta:Clean">
+			<MSBuild Targets="Clean" Projects="CdsDelta\CdsDelta.dproj"/>
+		</Target>
+		<Target Name="CdsDelta:Make">
+			<MSBuild Targets="Make" Projects="CdsDelta\CdsDelta.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="UniPrint;transample;SchemaTest;RWBlocks;ParQuery;IbxUpdSql;IbxMon;IbxEmp;GetMax;DbxSingle;DbxMulti;CdsDelta"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="UniPrint:Clean;transample:Clean;SchemaTest:Clean;RWBlocks:Clean;ParQuery:Clean;IbxUpdSql:Clean;IbxMon:Clean;IbxEmp:Clean;GetMax:Clean;DbxSingle:Clean;DbxMulti:Clean;CdsDelta:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="UniPrint:Make;transample:Make;SchemaTest:Make;RWBlocks:Make;ParQuery:Make;IbxUpdSql:Make;IbxMon:Make;IbxEmp:Make;GetMax:Make;DbxSingle:Make;DbxMulti:Make;CdsDelta:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

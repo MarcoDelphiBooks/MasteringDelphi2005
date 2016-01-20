@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{48F2B160-EB84-4BF1-B696-D13FFADB2EDE}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="RegionsTest\RegionsTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ToDoTest\ToDoTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="UMLDemo\UMLDemo.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="RegionsTest">
+			<MSBuild Projects="RegionsTest\RegionsTest.dproj"/>
+		</Target>
+		<Target Name="RegionsTest:Clean">
+			<MSBuild Targets="Clean" Projects="RegionsTest\RegionsTest.dproj"/>
+		</Target>
+		<Target Name="RegionsTest:Make">
+			<MSBuild Targets="Make" Projects="RegionsTest\RegionsTest.dproj"/>
+		</Target>
+		<Target Name="ToDoTest">
+			<MSBuild Projects="ToDoTest\ToDoTest.dproj"/>
+		</Target>
+		<Target Name="ToDoTest:Clean">
+			<MSBuild Targets="Clean" Projects="ToDoTest\ToDoTest.dproj"/>
+		</Target>
+		<Target Name="ToDoTest:Make">
+			<MSBuild Targets="Make" Projects="ToDoTest\ToDoTest.dproj"/>
+		</Target>
+		<Target Name="UMLDemo">
+			<MSBuild Projects="UMLDemo\UMLDemo.dproj"/>
+		</Target>
+		<Target Name="UMLDemo:Clean">
+			<MSBuild Targets="Clean" Projects="UMLDemo\UMLDemo.dproj"/>
+		</Target>
+		<Target Name="UMLDemo:Make">
+			<MSBuild Targets="Make" Projects="UMLDemo\UMLDemo.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="RegionsTest;ToDoTest;UMLDemo"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="RegionsTest:Clean;ToDoTest:Clean;UMLDemo:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="RegionsTest:Make;ToDoTest:Make;UMLDemo:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

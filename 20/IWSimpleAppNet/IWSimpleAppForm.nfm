@@ -1,0 +1,150 @@
+object IWForm1: TIWForm1
+  BrowserSecurityCheck = True
+  Background.Fixed = False
+  HandleTabs = False
+  LeftToRight = True
+  LockUntilLoaded = True
+  LockOnSubmit = True
+  ShowHint = True
+  XPTheme = True
+  ConnectionMode = cmAny
+  SupportedBrowsers = [brIE, brNetscape7, brOpera, brSafari, brNetscape6]
+  Left = 0
+  Top = 0
+  Width = 417
+  Height = 299
+  object IWButton1: TIWButton
+    Caption = 'Add Item'
+    DoSubmitValidation = True
+    WebColor = clBtnFace
+    WebFont.Color = clNone
+    WebFont.Size = 10
+    WebFont.Style = []
+    FriendlyName = 'IWButton1'
+    ScriptEvents = <>
+    TabOrder = 0
+    WebCursor = crAuto
+    IW50Hint = False
+    ParentShowHint = False
+    ShowHint = True
+    ZIndex = 0
+    RenderSize = True
+    Left = 208
+    Top = 32
+    Width = 75
+    Height = 25
+    OnClick = IWButton1Click
+  end
+  object IWEdit1: TIWEdit
+    PasswordPrompt = False
+    Text = 'four'
+    Alignment = taLeftJustify
+    BGColor = clNone
+    FocusColor = clNone
+    DoSubmitValidation = True
+    Editable = True
+    NonEditableAsLabel = True
+    WebFont.Color = clNone
+    WebFont.Size = 10
+    WebFont.Style = []
+    FriendlyName = 'IWEdit1'
+    MaxLength = 0
+    ReadOnly = False
+    Required = False
+    ScriptEvents = <>
+    TabOrder = 1
+    WebCursor = crAuto
+    IW50Hint = False
+    ParentShowHint = False
+    ShowHint = True
+    ZIndex = 0
+    RenderSize = True
+    Left = 48
+    Top = 32
+    Width = 145
+    Height = 21
+  end
+  object IWListbox1: TIWListbox
+    FriendlyName = 'IWListbox1'
+    ItemIndex = -1
+    Items.Strings = (
+      'one'
+      'two'
+      'three')
+    MultiSelect = False
+    Sorted = False
+    DoSubmitValidation = True
+    Editable = True
+    TabOrder = 2
+    BGColor = clNone
+    WebFont.Color = clNone
+    WebFont.Size = 10
+    WebFont.Style = []
+    FocusColor = clNone
+    AutoHideOnMenuActivation = False
+    ItemsHaveValues = False
+    NoSelectionText = '-- No Selection --'
+    Required = False
+    RequireSelection = True
+    ScriptEvents = <>
+    UseSize = True
+    WebCursor = crAuto
+    IW50Hint = False
+    ParentShowHint = False
+    ShowHint = True
+    ZIndex = 0
+    RenderSize = True
+    Left = 48
+    Top = 72
+    Width = 145
+    Height = 169
+  end
+  object IWButton2: TIWButton
+    Caption = 'Show (1)'
+    DoSubmitValidation = True
+    WebColor = clBtnFace
+    WebFont.Color = clNone
+    WebFont.Size = 10
+    WebFont.Style = []
+    FriendlyName = 'IWButton2'
+    ScriptEvents = <>
+    TabOrder = 3
+    WebCursor = crAuto
+    IW50Hint = False
+    ParentShowHint = False
+    ShowHint = True
+    ZIndex = 0
+    RenderSize = True
+    Left = 208
+    Top = 176
+    Width = 75
+    Height = 25
+    OnClick = IWButton2Click
+  end
+  object IWButton3: TIWButton
+    Caption = 'Show (2)'
+    DoSubmitValidation = True
+    WebColor = clBtnFace
+    WebFont.Color = clNone
+    WebFont.Size = 10
+    WebFont.Style = []
+    FriendlyName = 'IWButton3'
+    ScriptEvents = <
+      item
+        EventCode.Strings = (
+          'window.alert(ASender.value);')
+        Event = 'onClick'
+      end>
+    TabOrder = 4
+    WebCursor = crAuto
+    IW50Hint = False
+    ParentShowHint = False
+    ShowHint = True
+    ZIndex = 0
+    RenderSize = True
+    Left = 208
+    Top = 216
+    Width = 75
+    Height = 25
+  end
+end

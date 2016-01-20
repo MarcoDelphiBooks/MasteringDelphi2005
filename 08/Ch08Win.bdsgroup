@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{1BE094FA-258E-4AC0-BA8C-9BF8AD192CA4}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    <Projects>
+      <Projects Name="AcManTest.exe">AcManTest\AcManTest.bdsproj</Projects>
+      <Projects Name="Actions.exe">Actions\Actions.bdsproj</Projects>
+      <Projects Name="BmpViewer.exe">BmpViewer\BmpViewer.bdsproj</Projects>
+      <Projects Name="DockPage.exe">DockPage\DockPage.bdsproj</Projects>
+      <Projects Name="DockTabTest.exe">DockTabTest\DockTabTest.bdsproj</Projects>
+      <Projects Name="DockTest.exe">DockTest\DockTest.bdsproj</Projects>
+      <Projects Name="ListActions.exe">ListActions\ListActions.bdsproj</Projects>
+      <Projects Name="RichBar.exe">RichBar\RichBar.bdsproj</Projects>
+      <Projects Name="MdEdit1.exe">MdEdit1\MdEdit1.bdsproj</Projects>
+      <Projects Name="MdEdit2.exe">MdEdit2\MdEdit2.bdsproj</Projects>
+      <Projects Name="MdEdit3.exe">MdEdit3\MdEdit3.bdsproj</Projects>
+      <Projects Name="Pages.exe">Pages\Pages.bdsproj</Projects>
+      <Projects Name="Targets">AcManTest.exe Actions.exe BmpViewer.exe DockPage.exe DockTabTest.exe DockTest.exe ListActions.exe RichBar.exe MdEdit1.exe MdEdit2.exe MdEdit3.exe Pages.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

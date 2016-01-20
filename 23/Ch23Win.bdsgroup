@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{6383085C-4469-4FCF-BF7C-66143CA8FC0D}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="VclClient.exe">AspNetService1\VclClient.bdsproj</Projects>
+      <Projects Name="FishClient.exe">SoapFish\FishClient.bdsproj</Projects>
+      <Projects Name="SoapFishServer.exe">SoapFish\SoapFishServer.bdsproj</Projects>
+      <Projects Name="SoapEmployeeClient.exe">SoapEmployee\SoapEmployeeClient.bdsproj</Projects>
+      <Projects Name="SoapEmployeeServer.exe">SoapEmployee\SoapEmployeeServer.bdsproj</Projects>
+      <Projects Name="SoapDataServer.exe">SoapDataServer\SoapDataServer.bdsproj</Projects>
+      <Projects Name="SoapDataClient.exe">SoapDataClient\SoapDataClient.bdsproj</Projects>
+      <Projects Name="SoapClientStocksDebug.exe">SoapClientStocksDebug\SoapClientStocksDebug.bdsproj</Projects>
+      <Projects Name="SoapClientStocks.exe">SoapClientStocks\SoapClientStocks.bdsproj</Projects>
+      <Projects Name="RssClient.exe">RssClient\RssClient.bdsproj</Projects>
+      <Projects Name="RestConvertCaller.exe">RestConvertService\RestConvertCaller.bdsproj</Projects>
+      <Projects Name="RestConvertService.exe">RestConvertService\RestConvertService.bdsproj</Projects>
+      <Projects Name="ConvertCaller.exe">ConvertService\ConvertCaller.bdsproj</Projects>
+      <Projects Name="ConvertService.exe">ConvertService\ConvertService.bdsproj</Projects>
+      <Projects Name="Targets">VclClient.exe FishClient.exe SoapFishServer.exe SoapEmployeeClient.exe SoapEmployeeServer.exe SoapDataServer.exe SoapDataClient.exe SoapClientStocksDebug.exe SoapClientStocks.exe RssClient.exe RestConvertCaller.exe RestConvertService.exe ConvertCaller.exe ConvertService.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

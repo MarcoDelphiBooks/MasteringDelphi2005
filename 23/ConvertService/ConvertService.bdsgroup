@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{026A5C63-345F-4E42-A92C-667AEC125935}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    
+    
+    <Projects>
+      <Projects Name="ConvertCaller.exe">ConvertCaller.bdsproj</Projects>
+      <Projects Name="ConvertService.exe">ConvertService.bdsproj</Projects>
+      <Projects Name="ConvertClientNet.exe">..\ConvertClientNet\ConvertClientNet.bdsproj</Projects>
+      <Projects Name="Targets">ConvertCaller.exe ConvertService.exe ConvertClientNet.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{6F7BC753-14F6-4D2E-95F4-2BF7967222E9}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="WSnap1.exe">WSnap1\WSnap1.bdsproj</Projects>
+      <Projects Name="WSnap2.exe">WSnap2\WSnap2.bdsproj</Projects>
+      <Projects Name="WSnapMD.exe">WSnapMD\WSnapMD.bdsproj</Projects>
+      <Projects Name="WSnapSession.exe">WSnapSession\WSnapSession.bdsproj</Projects>
+      <Projects Name="WSnapTable.exe">WSnapTable\WSnapTable.bdsproj</Projects>
+      <Projects Name="WSnapUsers.exe">WSnapUsers\WSnapUsers.bdsproj</Projects>
+      <Projects Name="CgiIntra.exe">CgiIntraPage\CgiIntra.bdsproj</Projects>
+      <Projects Name="IWTwoForms.exe">IWTwoForms\IWTwoForms.bdsproj</Projects>
+      <Projects Name="IWTree.exe">IWTree\IWTree.bdsproj</Projects>
+      <Projects Name="IWSimpleAppNet.exe">IWSimpleAppNet\IWSimpleAppNet.bdsproj</Projects>
+      <Projects Name="IWSimpleApp.exe">IWSimpleApp\IWSimpleApp.bdsproj</Projects>
+      <Projects Name="IWSession.exe">IWSession\IWSession.bdsproj</Projects>
+      <Projects Name="IWScrollData.exe">IWScrollData\IWScrollData.bdsproj</Projects>
+      <Projects Name="IWGridDemo.exe">IWGridDemo\IWGridDemo.bdsproj</Projects>
+      <Projects Name="IWClientGrid.exe">IWClientGrid\IWClientGrid.bdsproj</Projects>
+      <Projects Name="Targets">WSnap1.exe WSnap2.exe WSnapMD.exe WSnapSession.exe WSnapTable.exe WSnapUsers.exe CgiIntra.exe IWTwoForms.exe IWTree.exe IWSimpleAppNet.exe IWSimpleApp.exe IWSession.exe IWScrollData.exe IWGridDemo.exe IWClientGrid.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

@@ -1,0 +1,192 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A9F2028B-A47E-462F-821E-968421623CFD}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="FirstDll\Callfrst.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FirstDll\Firstdll.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DynaCall\DynaCall.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DllMem\Dllmem.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DllMem\Usemem.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="NameTest\NameTest.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PackForm\DynaPackForm.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PackForm\UsePackForm.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PackForm\PackWithForm.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PackInfo\PackInfo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IntfPack\IntfPack.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IntfPack\IntfFormPack.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IntfPack\IntfFormPack2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IntfPack\UseIntfPack.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Callfrst">
+			<MSBuild Projects="FirstDll\Callfrst.dproj"/>
+		</Target>
+		<Target Name="Callfrst:Clean">
+			<MSBuild Targets="Clean" Projects="FirstDll\Callfrst.dproj"/>
+		</Target>
+		<Target Name="Callfrst:Make">
+			<MSBuild Targets="Make" Projects="FirstDll\Callfrst.dproj"/>
+		</Target>
+		<Target Name="Firstdll">
+			<MSBuild Projects="FirstDll\Firstdll.dproj"/>
+		</Target>
+		<Target Name="Firstdll:Clean">
+			<MSBuild Targets="Clean" Projects="FirstDll\Firstdll.dproj"/>
+		</Target>
+		<Target Name="Firstdll:Make">
+			<MSBuild Targets="Make" Projects="FirstDll\Firstdll.dproj"/>
+		</Target>
+		<Target Name="DynaCall">
+			<MSBuild Projects="DynaCall\DynaCall.dproj"/>
+		</Target>
+		<Target Name="DynaCall:Clean">
+			<MSBuild Targets="Clean" Projects="DynaCall\DynaCall.dproj"/>
+		</Target>
+		<Target Name="DynaCall:Make">
+			<MSBuild Targets="Make" Projects="DynaCall\DynaCall.dproj"/>
+		</Target>
+		<Target Name="Dllmem">
+			<MSBuild Projects="DllMem\Dllmem.dproj"/>
+		</Target>
+		<Target Name="Dllmem:Clean">
+			<MSBuild Targets="Clean" Projects="DllMem\Dllmem.dproj"/>
+		</Target>
+		<Target Name="Dllmem:Make">
+			<MSBuild Targets="Make" Projects="DllMem\Dllmem.dproj"/>
+		</Target>
+		<Target Name="Usemem">
+			<MSBuild Projects="DllMem\Usemem.dproj"/>
+		</Target>
+		<Target Name="Usemem:Clean">
+			<MSBuild Targets="Clean" Projects="DllMem\Usemem.dproj"/>
+		</Target>
+		<Target Name="Usemem:Make">
+			<MSBuild Targets="Make" Projects="DllMem\Usemem.dproj"/>
+		</Target>
+		<Target Name="NameTest">
+			<MSBuild Projects="NameTest\NameTest.dproj"/>
+		</Target>
+		<Target Name="NameTest:Clean">
+			<MSBuild Targets="Clean" Projects="NameTest\NameTest.dproj"/>
+		</Target>
+		<Target Name="NameTest:Make">
+			<MSBuild Targets="Make" Projects="NameTest\NameTest.dproj"/>
+		</Target>
+		<Target Name="DynaPackForm">
+			<MSBuild Projects="PackForm\DynaPackForm.dproj"/>
+		</Target>
+		<Target Name="DynaPackForm:Clean">
+			<MSBuild Targets="Clean" Projects="PackForm\DynaPackForm.dproj"/>
+		</Target>
+		<Target Name="DynaPackForm:Make">
+			<MSBuild Targets="Make" Projects="PackForm\DynaPackForm.dproj"/>
+		</Target>
+		<Target Name="UsePackForm">
+			<MSBuild Projects="PackForm\UsePackForm.dproj"/>
+		</Target>
+		<Target Name="UsePackForm:Clean">
+			<MSBuild Targets="Clean" Projects="PackForm\UsePackForm.dproj"/>
+		</Target>
+		<Target Name="UsePackForm:Make">
+			<MSBuild Targets="Make" Projects="PackForm\UsePackForm.dproj"/>
+		</Target>
+		<Target Name="PackWithForm">
+			<MSBuild Projects="PackForm\PackWithForm.dproj"/>
+		</Target>
+		<Target Name="PackWithForm:Clean">
+			<MSBuild Targets="Clean" Projects="PackForm\PackWithForm.dproj"/>
+		</Target>
+		<Target Name="PackWithForm:Make">
+			<MSBuild Targets="Make" Projects="PackForm\PackWithForm.dproj"/>
+		</Target>
+		<Target Name="PackInfo">
+			<MSBuild Projects="PackInfo\PackInfo.dproj"/>
+		</Target>
+		<Target Name="PackInfo:Clean">
+			<MSBuild Targets="Clean" Projects="PackInfo\PackInfo.dproj"/>
+		</Target>
+		<Target Name="PackInfo:Make">
+			<MSBuild Targets="Make" Projects="PackInfo\PackInfo.dproj"/>
+		</Target>
+		<Target Name="IntfPack">
+			<MSBuild Projects="IntfPack\IntfPack.dproj"/>
+		</Target>
+		<Target Name="IntfPack:Clean">
+			<MSBuild Targets="Clean" Projects="IntfPack\IntfPack.dproj"/>
+		</Target>
+		<Target Name="IntfPack:Make">
+			<MSBuild Targets="Make" Projects="IntfPack\IntfPack.dproj"/>
+		</Target>
+		<Target Name="IntfFormPack">
+			<MSBuild Projects="IntfPack\IntfFormPack.dproj"/>
+		</Target>
+		<Target Name="IntfFormPack:Clean">
+			<MSBuild Targets="Clean" Projects="IntfPack\IntfFormPack.dproj"/>
+		</Target>
+		<Target Name="IntfFormPack:Make">
+			<MSBuild Targets="Make" Projects="IntfPack\IntfFormPack.dproj"/>
+		</Target>
+		<Target Name="IntfFormPack2">
+			<MSBuild Projects="IntfPack\IntfFormPack2.dproj"/>
+		</Target>
+		<Target Name="IntfFormPack2:Clean">
+			<MSBuild Targets="Clean" Projects="IntfPack\IntfFormPack2.dproj"/>
+		</Target>
+		<Target Name="IntfFormPack2:Make">
+			<MSBuild Targets="Make" Projects="IntfPack\IntfFormPack2.dproj"/>
+		</Target>
+		<Target Name="UseIntfPack">
+			<MSBuild Projects="IntfPack\UseIntfPack.dproj"/>
+		</Target>
+		<Target Name="UseIntfPack:Clean">
+			<MSBuild Targets="Clean" Projects="IntfPack\UseIntfPack.dproj"/>
+		</Target>
+		<Target Name="UseIntfPack:Make">
+			<MSBuild Targets="Make" Projects="IntfPack\UseIntfPack.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Callfrst;Firstdll;DynaCall;Dllmem;Usemem;NameTest;DynaPackForm;UsePackForm;PackWithForm;PackInfo;IntfPack;IntfFormPack;IntfFormPack2;UseIntfPack"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Callfrst:Clean;Firstdll:Clean;DynaCall:Clean;Dllmem:Clean;Usemem:Clean;NameTest:Clean;DynaPackForm:Clean;UsePackForm:Clean;PackWithForm:Clean;PackInfo:Clean;IntfPack:Clean;IntfFormPack:Clean;IntfFormPack2:Clean;UseIntfPack:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Callfrst:Make;Firstdll:Make;DynaCall:Make;Dllmem:Make;Usemem:Make;NameTest:Make;DynaPackForm:Make;UsePackForm:Make;PackWithForm:Make;PackInfo:Make;IntfPack:Make;IntfFormPack:Make;IntfFormPack2:Make;UseIntfPack:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

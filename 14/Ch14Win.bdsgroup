@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{86A0CCFF-7334-44B5-9BF0-C93647426AD6}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="UniPrint.exe">UniPrint\UniPrint.bdsproj</Projects>
+      <Projects Name="transample.exe">TranSample\transample.bdsproj</Projects>
+      <Projects Name="SchemaTest.exe">SchemaTest\SchemaTest.bdsproj</Projects>
+      <Projects Name="RWBlocks.exe">RWBlocks\RWBlocks.bdsproj</Projects>
+      <Projects Name="ParQuery.exe">ParQuery\ParQuery.bdsproj</Projects>
+      <Projects Name="IbxUpdSql.exe">IbxUpdSql\IbxUpdSql.bdsproj</Projects>
+      <Projects Name="IbxMon.exe">IbxMon\IbxMon.bdsproj</Projects>
+      <Projects Name="IbxEmp.exe">IbxEmp\IbxEmp.bdsproj</Projects>
+      <Projects Name="GetMax.exe">GetMax\GetMax.bdsproj</Projects>
+      <Projects Name="DbxSingle.exe">DbxSingle\DbxSingle.bdsproj</Projects>
+      <Projects Name="DbxMulti.exe">DbxMulti\DbxMulti.bdsproj</Projects>
+      <Projects Name="CdsDelta.exe">CdsDelta\CdsDelta.bdsproj</Projects>
+      <Projects Name="Targets">UniPrint.exe transample.exe SchemaTest.exe RWBlocks.exe ParQuery.exe IbxUpdSql.exe IbxMon.exe IbxEmp.exe GetMax.exe DbxSingle.exe DbxMulti.exe CdsDelta.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

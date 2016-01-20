@@ -1,0 +1,36 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{0A9229E7-5CCD-4D94-B8C0-AD7815FD833B}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="DomCreate.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DomCreate">
+			<MSBuild Projects="DomCreate.dproj"/>
+		</Target>
+		<Target Name="DomCreate:Clean">
+			<MSBuild Targets="Clean" Projects="DomCreate.dproj"/>
+		</Target>
+		<Target Name="DomCreate:Make">
+			<MSBuild Targets="Make" Projects="DomCreate.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DomCreate"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DomCreate:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DomCreate:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

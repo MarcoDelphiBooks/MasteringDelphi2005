@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{C2A11DD1-13AF-4957-A18E-0E19C87C5DC2}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="SoapEmployeeClient.exe">SoapEmployeeClient.bdsproj</Projects>
+      <Projects Name="SoapEmployeeServer.exe">SoapEmployeeServer.bdsproj</Projects>
+      <Projects Name="Targets">SoapEmployeeClient.exe SoapEmployeeServer.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

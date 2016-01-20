@@ -1,0 +1,108 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{BC426250-3F41-45E4-8E78-65EBB3E3B6FA}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="AppServ1\AppServ1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="AppServ2\AppServ2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="AppSPlus\AppSPlus.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ClientRefresh\ClientRefresh.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ThinCli1\ThinCli1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ThinCli2\ThinCli2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ThinPlus\ThinPlus.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="AppServ1">
+			<MSBuild Projects="AppServ1\AppServ1.dproj"/>
+		</Target>
+		<Target Name="AppServ1:Clean">
+			<MSBuild Targets="Clean" Projects="AppServ1\AppServ1.dproj"/>
+		</Target>
+		<Target Name="AppServ1:Make">
+			<MSBuild Targets="Make" Projects="AppServ1\AppServ1.dproj"/>
+		</Target>
+		<Target Name="AppServ2">
+			<MSBuild Projects="AppServ2\AppServ2.dproj"/>
+		</Target>
+		<Target Name="AppServ2:Clean">
+			<MSBuild Targets="Clean" Projects="AppServ2\AppServ2.dproj"/>
+		</Target>
+		<Target Name="AppServ2:Make">
+			<MSBuild Targets="Make" Projects="AppServ2\AppServ2.dproj"/>
+		</Target>
+		<Target Name="AppSPlus">
+			<MSBuild Projects="AppSPlus\AppSPlus.dproj"/>
+		</Target>
+		<Target Name="AppSPlus:Clean">
+			<MSBuild Targets="Clean" Projects="AppSPlus\AppSPlus.dproj"/>
+		</Target>
+		<Target Name="AppSPlus:Make">
+			<MSBuild Targets="Make" Projects="AppSPlus\AppSPlus.dproj"/>
+		</Target>
+		<Target Name="ClientRefresh">
+			<MSBuild Projects="ClientRefresh\ClientRefresh.dproj"/>
+		</Target>
+		<Target Name="ClientRefresh:Clean">
+			<MSBuild Targets="Clean" Projects="ClientRefresh\ClientRefresh.dproj"/>
+		</Target>
+		<Target Name="ClientRefresh:Make">
+			<MSBuild Targets="Make" Projects="ClientRefresh\ClientRefresh.dproj"/>
+		</Target>
+		<Target Name="ThinCli1">
+			<MSBuild Projects="ThinCli1\ThinCli1.dproj"/>
+		</Target>
+		<Target Name="ThinCli1:Clean">
+			<MSBuild Targets="Clean" Projects="ThinCli1\ThinCli1.dproj"/>
+		</Target>
+		<Target Name="ThinCli1:Make">
+			<MSBuild Targets="Make" Projects="ThinCli1\ThinCli1.dproj"/>
+		</Target>
+		<Target Name="ThinCli2">
+			<MSBuild Projects="ThinCli2\ThinCli2.dproj"/>
+		</Target>
+		<Target Name="ThinCli2:Clean">
+			<MSBuild Targets="Clean" Projects="ThinCli2\ThinCli2.dproj"/>
+		</Target>
+		<Target Name="ThinCli2:Make">
+			<MSBuild Targets="Make" Projects="ThinCli2\ThinCli2.dproj"/>
+		</Target>
+		<Target Name="ThinPlus">
+			<MSBuild Projects="ThinPlus\ThinPlus.dproj"/>
+		</Target>
+		<Target Name="ThinPlus:Clean">
+			<MSBuild Targets="Clean" Projects="ThinPlus\ThinPlus.dproj"/>
+		</Target>
+		<Target Name="ThinPlus:Make">
+			<MSBuild Targets="Make" Projects="ThinPlus\ThinPlus.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="AppServ1;AppServ2;AppSPlus;ClientRefresh;ThinCli1;ThinCli2;ThinPlus"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="AppServ1:Clean;AppServ2:Clean;AppSPlus:Clean;ClientRefresh:Clean;ThinCli1:Clean;ThinCli2:Clean;ThinPlus:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="AppServ1:Make;AppServ2:Make;AppSPlus:Make;ClientRefresh:Make;ThinCli1:Make;ThinCli2:Make;ThinPlus:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

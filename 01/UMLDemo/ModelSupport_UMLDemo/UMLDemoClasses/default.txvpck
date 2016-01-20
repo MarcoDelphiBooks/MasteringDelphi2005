@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="hw4lkv7xtwh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:UMLDemo:UMLDemoClasses.THireInfo">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="560,240,136,95" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.THireInfo.HireDate" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.THireInfo.ContractType" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:UMLDemo:UMLDemoClasses.TAddress">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="80,80,135,110" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TAddress.StreetAddress" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TAddress.Town" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TAddress.ZIP" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:UMLDemo:UMLDemoClasses.TPerson">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="280,60,140,112" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TPerson.FAnAddress" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TPerson.Name" />
+      <reference referencedUin="delphi:e_property:src:UMLDemo:UMLDemoClasses.TPerson.AnAddress" />
+      <reference referencedUin="delphi:l_ast:src:UMLDemo:UMLDemoClasses.TPerson.FAnAddress">
+        <property name="sourceAnchor" value="280,126" />
+        <property name="targetAnchor" value="215,126" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:UMLDemo:UMLDemoClasses.TPerson.AnAddress">
+        <property name="sourceAnchor" value="280,118" />
+        <property name="targetAnchor" value="215,118" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:UMLDemo:UMLDemoClasses.TEmployee">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="320,240,138,110" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TEmployee.Manager" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TEmployee.Since" />
+      <reference referencedUin="delphi:e_field:src:UMLDemo:UMLDemoClasses.TEmployee.HireInfo" />
+      <reference referencedUin="delphi:l_gnt:src:UMLDemo:UMLDemoClasses.TEmployee:UMLDemoClasses.TPerson">
+        <property name="sourceAnchor" value="370,240" />
+        <property name="targetAnchor" value="370,172" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:UMLDemo:UMLDemoClasses.TEmployee.Manager">
+        <property name="sourceAnchor" value="458,342" />
+        <property name="targetAnchor" value="450,350" />
+        <property name="bendpoints" value="491,342,491,383,450,383" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:UMLDemo:UMLDemoClasses.TEmployee.HireInfo">
+        <property name="sourceAnchor" value="458,287" />
+        <property name="targetAnchor" value="560,287" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:UMLDemo:UMLDemoClasses.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

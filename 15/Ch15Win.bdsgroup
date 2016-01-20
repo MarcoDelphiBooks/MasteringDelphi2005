@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{0545EA3E-D28D-4D92-B8DD-5B49B752F992}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="BatchUpdates.exe">BatchUpdates\BatchUpdates.bdsproj</Projects>
+      <Projects Name="TransProcessing.exe">TransProcessing\TransProcessing.bdsproj</Projects>
+      <Projects Name="PessimisticLocking.exe">PessimisticLocking\PessimisticLocking.bdsproj</Projects>
+      <Projects Name="OpenSchema.exe">OpenSchema\OpenSchema.bdsproj</Projects>
+      <Projects Name="JoinData.exe">JoinData\JoinData.bdsproj</Projects>
+      <Projects Name="JetText.exe">JetText\JetText.bdsproj</Projects>
+      <Projects Name="JetParadox.exe">JetParadox\JetParadox.bdsproj</Projects>
+      <Projects Name="JetImportExport.exe">JetImportExport\JetImportExport.bdsproj</Projects>
+      <Projects Name="JetExcel.exe">JetExcel\JetExcel.bdsproj</Projects>
+      <Projects Name="FirstADOExample.exe">FirstADOExample\FirstADOExample.bdsproj</Projects>
+      <Projects Name="DataLinkFile.exe">DataLinkFile\DataLinkFile.bdsproj</Projects>
+      <Projects Name="DataClone.exe">DataClone\DataClone.bdsproj</Projects>
+      <Projects Name="ClientIndexes.exe">ClientIndexes\ClientIndexes.bdsproj</Projects>
+      <Projects Name="Targets">BatchUpdates.exe TransProcessing.exe PessimisticLocking.exe OpenSchema.exe JoinData.exe JetText.exe JetParadox.exe JetImportExport.exe JetExcel.exe FirstADOExample.exe DataLinkFile.exe DataClone.exe ClientIndexes.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

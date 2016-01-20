@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{01C3F351-F388-4CD0-9717-67838E343505}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="Anchors.exe">Anchors\Anchors.bdsproj</Projects>
+      <Projects Name="BtnGroups.exe">BtnGroups\BtnGroups.bdsproj</Projects>
+      <Projects Name="ChangeOwner.exe">ChangeOwner\ChangeOwner.bdsproj</Projects>
+      <Projects Name="CustomNodes.exe">CustomNodes\CustomNodes.bdsproj</Projects>
+      <Projects Name="CustPop.exe">CustPop\CustPop.bdsproj</Projects>
+      <Projects Name="Datecomp.exe">DateComp\Datecomp.bdsproj</Projects>
+      <Projects Name="DateEvt.exe">DateEvt\DateEvt.bdsproj</Projects>
+      <Projects Name="DragTree.exe">DragTree\DragTree.bdsproj</Projects>
+      <Projects Name="HdrSlipt.exe">HdrSplit\HdrSlipt.bdsproj</Projects>
+      <Projects Name="HideComp.exe">HideComp\HideComp.bdsproj</Projects>
+      <Projects Name="InFocus.exe">InFocus\InFocus.bdsproj</Projects>
+      <Projects Name="NameValues.exe">NameValues\NameValues.bdsproj</Projects>
+      <Projects Name="Odlist.exe">OdList\Odlist.bdsproj</Projects>
+      <Projects Name="Odmenu.exe">OdMenu\Odmenu.bdsproj</Projects>
+      <Projects Name="RefList.exe">RefList\RefList.bdsproj</Projects>
+      <Projects Name="Split1.exe">Split1\Split1.bdsproj</Projects>
+      <Projects Name="Split2.exe">Split2\Split2.bdsproj</Projects>
+      <Projects Name="Splith.exe">SplitH\Splith.bdsproj</Projects>
+      <Projects Name="CustHint.exe">CustHint\CustHint.bdsproj</Projects>
+      <Projects Name="Targets">Anchors.exe BtnGroups.exe ChangeOwner.exe CustomNodes.exe CustPop.exe Datecomp.exe DateEvt.exe DragTree.exe HdrSlipt.exe HideComp.exe InFocus.exe NameValues.exe Odlist.exe Odmenu.exe RefList.exe Split1.exe Split2.exe Splith.exe CustHint.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

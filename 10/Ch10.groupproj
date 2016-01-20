@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{2B16A5C9-0D86-481E-A146-23A800F7912D}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="SampleRefactoringCode\SampleRefactoringCode.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="UnitTestDemo\UnitTestDemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="UnitTestDemo\UnitTestDemoTests.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="SampleRefactoringCode">
+			<MSBuild Projects="SampleRefactoringCode\SampleRefactoringCode.dproj"/>
+		</Target>
+		<Target Name="SampleRefactoringCode:Clean">
+			<MSBuild Targets="Clean" Projects="SampleRefactoringCode\SampleRefactoringCode.dproj"/>
+		</Target>
+		<Target Name="SampleRefactoringCode:Make">
+			<MSBuild Targets="Make" Projects="SampleRefactoringCode\SampleRefactoringCode.dproj"/>
+		</Target>
+		<Target Name="UnitTestDemo">
+			<MSBuild Projects="UnitTestDemo\UnitTestDemo.dproj"/>
+		</Target>
+		<Target Name="UnitTestDemo:Clean">
+			<MSBuild Targets="Clean" Projects="UnitTestDemo\UnitTestDemo.dproj"/>
+		</Target>
+		<Target Name="UnitTestDemo:Make">
+			<MSBuild Targets="Make" Projects="UnitTestDemo\UnitTestDemo.dproj"/>
+		</Target>
+		<Target Name="UnitTestDemoTests">
+			<MSBuild Projects="UnitTestDemo\UnitTestDemoTests.dproj"/>
+		</Target>
+		<Target Name="UnitTestDemoTests:Clean">
+			<MSBuild Targets="Clean" Projects="UnitTestDemo\UnitTestDemoTests.dproj"/>
+		</Target>
+		<Target Name="UnitTestDemoTests:Make">
+			<MSBuild Targets="Make" Projects="UnitTestDemo\UnitTestDemoTests.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="SampleRefactoringCode;UnitTestDemo;UnitTestDemoTests"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="SampleRefactoringCode:Clean;UnitTestDemo:Clean;UnitTestDemoTests:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="SampleRefactoringCode:Make;UnitTestDemo:Make;UnitTestDemoTests:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

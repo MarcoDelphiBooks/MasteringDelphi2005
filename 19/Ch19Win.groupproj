@@ -1,0 +1,242 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{a635f642-3f52-4b56-9523-4a2005bc89c7}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="IndySock1\IndySock1Client.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IndySock1\IndySock1Server.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebFind\WebFind.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="HttpServ\HttpServ.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="HtmlProd\HtmlProd.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CgiDate\CgiDate.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BrokDemo\BrokDebug.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BrokDemo\BrokCgi.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BrokDemo\BrokApache.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Apache1\Apache1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CustQueP\CustQueDebug.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CustQueP\CustQueP.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebCount\WebCount.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebSearcher\WebSearchDebug.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebSearcher\WebSearcher.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IsapiDem\IsapiDem.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BrokDemo\BrokIsa.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BackTask\BackTask.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<BorlandProject>
+					<Default.Personality/>
+				</BorlandProject>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="IndySock1Client">
+			<MSBuild Projects="IndySock1\IndySock1Client.dproj"/>
+		</Target>
+		<Target Name="IndySock1Client:Clean">
+			<MSBuild Targets="Clean" Projects="IndySock1\IndySock1Client.dproj"/>
+		</Target>
+		<Target Name="IndySock1Client:Make">
+			<MSBuild Targets="Make" Projects="IndySock1\IndySock1Client.dproj"/>
+		</Target>
+		<Target Name="IndySock1Server">
+			<MSBuild Projects="IndySock1\IndySock1Server.dproj"/>
+		</Target>
+		<Target Name="IndySock1Server:Clean">
+			<MSBuild Targets="Clean" Projects="IndySock1\IndySock1Server.dproj"/>
+		</Target>
+		<Target Name="IndySock1Server:Make">
+			<MSBuild Targets="Make" Projects="IndySock1\IndySock1Server.dproj"/>
+		</Target>
+		<Target Name="WebFind">
+			<MSBuild Projects="WebFind\WebFind.dproj"/>
+		</Target>
+		<Target Name="WebFind:Clean">
+			<MSBuild Targets="Clean" Projects="WebFind\WebFind.dproj"/>
+		</Target>
+		<Target Name="WebFind:Make">
+			<MSBuild Targets="Make" Projects="WebFind\WebFind.dproj"/>
+		</Target>
+		<Target Name="HttpServ">
+			<MSBuild Projects="HttpServ\HttpServ.dproj"/>
+		</Target>
+		<Target Name="HttpServ:Clean">
+			<MSBuild Targets="Clean" Projects="HttpServ\HttpServ.dproj"/>
+		</Target>
+		<Target Name="HttpServ:Make">
+			<MSBuild Targets="Make" Projects="HttpServ\HttpServ.dproj"/>
+		</Target>
+		<Target Name="HtmlProd">
+			<MSBuild Projects="HtmlProd\HtmlProd.dproj"/>
+		</Target>
+		<Target Name="HtmlProd:Clean">
+			<MSBuild Targets="Clean" Projects="HtmlProd\HtmlProd.dproj"/>
+		</Target>
+		<Target Name="HtmlProd:Make">
+			<MSBuild Targets="Make" Projects="HtmlProd\HtmlProd.dproj"/>
+		</Target>
+		<Target Name="CgiDate">
+			<MSBuild Projects="CgiDate\CgiDate.dproj"/>
+		</Target>
+		<Target Name="CgiDate:Clean">
+			<MSBuild Targets="Clean" Projects="CgiDate\CgiDate.dproj"/>
+		</Target>
+		<Target Name="CgiDate:Make">
+			<MSBuild Targets="Make" Projects="CgiDate\CgiDate.dproj"/>
+		</Target>
+		<Target Name="BrokDebug">
+			<MSBuild Projects="BrokDemo\BrokDebug.dproj"/>
+		</Target>
+		<Target Name="BrokDebug:Clean">
+			<MSBuild Targets="Clean" Projects="BrokDemo\BrokDebug.dproj"/>
+		</Target>
+		<Target Name="BrokDebug:Make">
+			<MSBuild Targets="Make" Projects="BrokDemo\BrokDebug.dproj"/>
+		</Target>
+		<Target Name="BrokCgi">
+			<MSBuild Projects="BrokDemo\BrokCgi.dproj"/>
+		</Target>
+		<Target Name="BrokCgi:Clean">
+			<MSBuild Targets="Clean" Projects="BrokDemo\BrokCgi.dproj"/>
+		</Target>
+		<Target Name="BrokCgi:Make">
+			<MSBuild Targets="Make" Projects="BrokDemo\BrokCgi.dproj"/>
+		</Target>
+		<Target Name="BrokApache">
+			<MSBuild Projects="BrokDemo\BrokApache.dproj"/>
+		</Target>
+		<Target Name="BrokApache:Clean">
+			<MSBuild Targets="Clean" Projects="BrokDemo\BrokApache.dproj"/>
+		</Target>
+		<Target Name="BrokApache:Make">
+			<MSBuild Targets="Make" Projects="BrokDemo\BrokApache.dproj"/>
+		</Target>
+		<Target Name="Apache1">
+			<MSBuild Projects="Apache1\Apache1.dproj"/>
+		</Target>
+		<Target Name="Apache1:Clean">
+			<MSBuild Targets="Clean" Projects="Apache1\Apache1.dproj"/>
+		</Target>
+		<Target Name="Apache1:Make">
+			<MSBuild Targets="Make" Projects="Apache1\Apache1.dproj"/>
+		</Target>
+		<Target Name="CustQueDebug">
+			<MSBuild Projects="CustQueP\CustQueDebug.dproj"/>
+		</Target>
+		<Target Name="CustQueDebug:Clean">
+			<MSBuild Targets="Clean" Projects="CustQueP\CustQueDebug.dproj"/>
+		</Target>
+		<Target Name="CustQueDebug:Make">
+			<MSBuild Targets="Make" Projects="CustQueP\CustQueDebug.dproj"/>
+		</Target>
+		<Target Name="CustQueP">
+			<MSBuild Projects="CustQueP\CustQueP.dproj"/>
+		</Target>
+		<Target Name="CustQueP:Clean">
+			<MSBuild Targets="Clean" Projects="CustQueP\CustQueP.dproj"/>
+		</Target>
+		<Target Name="CustQueP:Make">
+			<MSBuild Targets="Make" Projects="CustQueP\CustQueP.dproj"/>
+		</Target>
+		<Target Name="WebCount">
+			<MSBuild Projects="WebCount\WebCount.dproj"/>
+		</Target>
+		<Target Name="WebCount:Clean">
+			<MSBuild Targets="Clean" Projects="WebCount\WebCount.dproj"/>
+		</Target>
+		<Target Name="WebCount:Make">
+			<MSBuild Targets="Make" Projects="WebCount\WebCount.dproj"/>
+		</Target>
+		<Target Name="WebSearchDebug">
+			<MSBuild Projects="WebSearcher\WebSearchDebug.dproj"/>
+		</Target>
+		<Target Name="WebSearchDebug:Clean">
+			<MSBuild Targets="Clean" Projects="WebSearcher\WebSearchDebug.dproj"/>
+		</Target>
+		<Target Name="WebSearchDebug:Make">
+			<MSBuild Targets="Make" Projects="WebSearcher\WebSearchDebug.dproj"/>
+		</Target>
+		<Target Name="WebSearcher">
+			<MSBuild Projects="WebSearcher\WebSearcher.dproj"/>
+		</Target>
+		<Target Name="WebSearcher:Clean">
+			<MSBuild Targets="Clean" Projects="WebSearcher\WebSearcher.dproj"/>
+		</Target>
+		<Target Name="WebSearcher:Make">
+			<MSBuild Targets="Make" Projects="WebSearcher\WebSearcher.dproj"/>
+		</Target>
+		<Target Name="IsapiDem">
+			<MSBuild Projects="IsapiDem\IsapiDem.dproj"/>
+		</Target>
+		<Target Name="IsapiDem:Clean">
+			<MSBuild Targets="Clean" Projects="IsapiDem\IsapiDem.dproj"/>
+		</Target>
+		<Target Name="IsapiDem:Make">
+			<MSBuild Targets="Make" Projects="IsapiDem\IsapiDem.dproj"/>
+		</Target>
+		<Target Name="BrokIsa">
+			<MSBuild Projects="BrokDemo\BrokIsa.dproj"/>
+		</Target>
+		<Target Name="BrokIsa:Clean">
+			<MSBuild Targets="Clean" Projects="BrokDemo\BrokIsa.dproj"/>
+		</Target>
+		<Target Name="BrokIsa:Make">
+			<MSBuild Targets="Make" Projects="BrokDemo\BrokIsa.dproj"/>
+		</Target>
+		<Target Name="BackTask">
+			<MSBuild Projects="BackTask\BackTask.dproj"/>
+		</Target>
+		<Target Name="BackTask:Clean">
+			<MSBuild Targets="Clean" Projects="BackTask\BackTask.dproj"/>
+		</Target>
+		<Target Name="BackTask:Make">
+			<MSBuild Targets="Make" Projects="BackTask\BackTask.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="IndySock1Client;IndySock1Server;WebFind;HttpServ;HtmlProd;CgiDate;BrokDebug;BrokCgi;BrokApache;Apache1;CustQueDebug;CustQueP;WebCount;WebSearchDebug;WebSearcher;IsapiDem;BrokIsa;BackTask"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="IndySock1Client:Clean;IndySock1Server:Clean;WebFind:Clean;HttpServ:Clean;HtmlProd:Clean;CgiDate:Clean;BrokDebug:Clean;BrokCgi:Clean;BrokApache:Clean;Apache1:Clean;CustQueDebug:Clean;CustQueP:Clean;WebCount:Clean;WebSearchDebug:Clean;WebSearcher:Clean;IsapiDem:Clean;BrokIsa:Clean;BackTask:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="IndySock1Client:Make;IndySock1Server:Make;WebFind:Make;HttpServ:Make;HtmlProd:Make;CgiDate:Make;BrokDebug:Make;BrokCgi:Make;BrokApache:Make;Apache1:Make;CustQueDebug:Make;CustQueP:Make;WebCount:Make;WebSearchDebug:Make;WebSearcher:Make;IsapiDem:Make;BrokIsa:Make;BackTask:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,168 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{F64EB199-B9D3-48CF-BF45-BB435E9767FE}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="BatchUpdates\BatchUpdates.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TransProcessing\TransProcessing.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PessimisticLocking\PessimisticLocking.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="OpenSchema\OpenSchema.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="JetText\JetText.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="JetParadox\JetParadox.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="JetImportExport\JetImportExport.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="JetExcel\JetExcel.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FirstADOExample\FirstADOExample.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DataLinkFile\DataLinkFile.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DataClone\DataClone.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ClientIndexes\ClientIndexes.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="BatchUpdates">
+			<MSBuild Projects="BatchUpdates\BatchUpdates.dproj"/>
+		</Target>
+		<Target Name="BatchUpdates:Clean">
+			<MSBuild Targets="Clean" Projects="BatchUpdates\BatchUpdates.dproj"/>
+		</Target>
+		<Target Name="BatchUpdates:Make">
+			<MSBuild Targets="Make" Projects="BatchUpdates\BatchUpdates.dproj"/>
+		</Target>
+		<Target Name="TransProcessing">
+			<MSBuild Projects="TransProcessing\TransProcessing.dproj"/>
+		</Target>
+		<Target Name="TransProcessing:Clean">
+			<MSBuild Targets="Clean" Projects="TransProcessing\TransProcessing.dproj"/>
+		</Target>
+		<Target Name="TransProcessing:Make">
+			<MSBuild Targets="Make" Projects="TransProcessing\TransProcessing.dproj"/>
+		</Target>
+		<Target Name="PessimisticLocking">
+			<MSBuild Projects="PessimisticLocking\PessimisticLocking.dproj"/>
+		</Target>
+		<Target Name="PessimisticLocking:Clean">
+			<MSBuild Targets="Clean" Projects="PessimisticLocking\PessimisticLocking.dproj"/>
+		</Target>
+		<Target Name="PessimisticLocking:Make">
+			<MSBuild Targets="Make" Projects="PessimisticLocking\PessimisticLocking.dproj"/>
+		</Target>
+		<Target Name="OpenSchema">
+			<MSBuild Projects="OpenSchema\OpenSchema.dproj"/>
+		</Target>
+		<Target Name="OpenSchema:Clean">
+			<MSBuild Targets="Clean" Projects="OpenSchema\OpenSchema.dproj"/>
+		</Target>
+		<Target Name="OpenSchema:Make">
+			<MSBuild Targets="Make" Projects="OpenSchema\OpenSchema.dproj"/>
+		</Target>
+		<Target Name="JetText">
+			<MSBuild Projects="JetText\JetText.dproj"/>
+		</Target>
+		<Target Name="JetText:Clean">
+			<MSBuild Targets="Clean" Projects="JetText\JetText.dproj"/>
+		</Target>
+		<Target Name="JetText:Make">
+			<MSBuild Targets="Make" Projects="JetText\JetText.dproj"/>
+		</Target>
+		<Target Name="JetParadox">
+			<MSBuild Projects="JetParadox\JetParadox.dproj"/>
+		</Target>
+		<Target Name="JetParadox:Clean">
+			<MSBuild Targets="Clean" Projects="JetParadox\JetParadox.dproj"/>
+		</Target>
+		<Target Name="JetParadox:Make">
+			<MSBuild Targets="Make" Projects="JetParadox\JetParadox.dproj"/>
+		</Target>
+		<Target Name="JetImportExport">
+			<MSBuild Projects="JetImportExport\JetImportExport.dproj"/>
+		</Target>
+		<Target Name="JetImportExport:Clean">
+			<MSBuild Targets="Clean" Projects="JetImportExport\JetImportExport.dproj"/>
+		</Target>
+		<Target Name="JetImportExport:Make">
+			<MSBuild Targets="Make" Projects="JetImportExport\JetImportExport.dproj"/>
+		</Target>
+		<Target Name="JetExcel">
+			<MSBuild Projects="JetExcel\JetExcel.dproj"/>
+		</Target>
+		<Target Name="JetExcel:Clean">
+			<MSBuild Targets="Clean" Projects="JetExcel\JetExcel.dproj"/>
+		</Target>
+		<Target Name="JetExcel:Make">
+			<MSBuild Targets="Make" Projects="JetExcel\JetExcel.dproj"/>
+		</Target>
+		<Target Name="FirstADOExample">
+			<MSBuild Projects="FirstADOExample\FirstADOExample.dproj"/>
+		</Target>
+		<Target Name="FirstADOExample:Clean">
+			<MSBuild Targets="Clean" Projects="FirstADOExample\FirstADOExample.dproj"/>
+		</Target>
+		<Target Name="FirstADOExample:Make">
+			<MSBuild Targets="Make" Projects="FirstADOExample\FirstADOExample.dproj"/>
+		</Target>
+		<Target Name="DataLinkFile">
+			<MSBuild Projects="DataLinkFile\DataLinkFile.dproj"/>
+		</Target>
+		<Target Name="DataLinkFile:Clean">
+			<MSBuild Targets="Clean" Projects="DataLinkFile\DataLinkFile.dproj"/>
+		</Target>
+		<Target Name="DataLinkFile:Make">
+			<MSBuild Targets="Make" Projects="DataLinkFile\DataLinkFile.dproj"/>
+		</Target>
+		<Target Name="DataClone">
+			<MSBuild Projects="DataClone\DataClone.dproj"/>
+		</Target>
+		<Target Name="DataClone:Clean">
+			<MSBuild Targets="Clean" Projects="DataClone\DataClone.dproj"/>
+		</Target>
+		<Target Name="DataClone:Make">
+			<MSBuild Targets="Make" Projects="DataClone\DataClone.dproj"/>
+		</Target>
+		<Target Name="ClientIndexes">
+			<MSBuild Projects="ClientIndexes\ClientIndexes.dproj"/>
+		</Target>
+		<Target Name="ClientIndexes:Clean">
+			<MSBuild Targets="Clean" Projects="ClientIndexes\ClientIndexes.dproj"/>
+		</Target>
+		<Target Name="ClientIndexes:Make">
+			<MSBuild Targets="Make" Projects="ClientIndexes\ClientIndexes.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="BatchUpdates;TransProcessing;PessimisticLocking;OpenSchema;JetText;JetParadox;JetImportExport;JetExcel;FirstADOExample;DataLinkFile;DataClone;ClientIndexes"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="BatchUpdates:Clean;TransProcessing:Clean;PessimisticLocking:Clean;OpenSchema:Clean;JetText:Clean;JetParadox:Clean;JetImportExport:Clean;JetExcel:Clean;FirstADOExample:Clean;DataLinkFile:Clean;DataClone:Clean;ClientIndexes:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="BatchUpdates:Make;TransProcessing:Make;PessimisticLocking:Make;OpenSchema:Make;JetText:Make;JetParadox:Make;JetImportExport:Make;JetExcel:Make;FirstADOExample:Make;DataLinkFile:Make;DataClone:Make;ClientIndexes:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

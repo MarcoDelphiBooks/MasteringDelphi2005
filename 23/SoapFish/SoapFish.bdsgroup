@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{BAEFFDC4-A83E-4771-A734-D2E63F394754}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    <Projects>
+      <Projects Name="FishClient.exe">FishClient.bdsproj</Projects>
+      <Projects Name="SoapFishServer.exe">SoapFishServer.bdsproj</Projects>
+      <Projects Name="Targets">FishClient.exe SoapFishServer.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

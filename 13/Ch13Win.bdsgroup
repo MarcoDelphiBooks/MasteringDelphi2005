@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{00765D45-FAD4-452E-ACE0-AAF224F20454}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="Calc.exe">Calc\Calc.bdsproj</Projects>
+      <Projects Name="CdsCalcs.exe">CdsCalcs\CdsCalcs.bdsproj</Projects>
+      <Projects Name="CustLookup.exe">CustLookup\CustLookup.bdsproj</Projects>
+      <Projects Name="DbAware.exe">DbAware\DbAware.bdsproj</Projects>
+      <Projects Name="DbError.exe">DbError\DbError.bdsproj</Projects>
+      <Projects Name="DragToGrid.exe">DragToGrid\DragToGrid.bdsproj</Projects>
+      <Projects Name="DrawData.exe">DrawData\DrawData.bdsproj</Projects>
+      <Projects Name="FieldAcc.exe">FieldAcc\FieldAcc.bdsproj</Projects>
+      <Projects Name="FieldLookup.exe">FieldLookup\FieldLookup.bdsproj</Projects>
+      <Projects Name="MastDet.exe">MastDet\MastDet.bdsproj</Projects>
+      <Projects Name="MltGrid.exe">MltGrid\MltGrid.bdsproj</Projects>
+      <Projects Name="MyBase1.exe">MyBase1\MyBase1.bdsproj</Projects>
+      <Projects Name="MyBase2.exe">MyBase2\MyBase2.bdsproj</Projects>
+      <Projects Name="NonAware.exe">NonAware\NonAware.bdsproj</Projects>
+      <Projects Name="NullDates.exe">NullDates\NullDates.bdsproj</Projects>
+      <Projects Name="SendToDb.exe">SendToDb\SendToDb.bdsproj</Projects>
+      <Projects Name="Total.exe">Total\Total.bdsproj</Projects>
+      <Projects Name="Targets">Calc.exe CdsCalcs.exe CustLookup.exe DbAware.exe DbError.exe DragToGrid.exe DrawData.exe FieldAcc.exe FieldLookup.exe MastDet.exe MltGrid.exe MyBase1.exe MyBase2.exe NonAware.exe NullDates.exe SendToDb.exe Total.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

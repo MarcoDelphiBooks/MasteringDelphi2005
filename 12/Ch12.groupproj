@@ -1,0 +1,144 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{295ADAAC-30E7-490F-ABC7-AAA342AA666D}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="NewGuid\NewGuid.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FirstCom\FirstCom.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PackAuto\PackAuto.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PropCom\Propcom.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SimpleServer\SimpleServer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TestCom\TestCom.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TestProp\TestProp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TLibCli\Tlibcli.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TLibDemo\Tlibdemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WordTest\WordTest.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="NewGuid">
+			<MSBuild Projects="NewGuid\NewGuid.dproj"/>
+		</Target>
+		<Target Name="NewGuid:Clean">
+			<MSBuild Targets="Clean" Projects="NewGuid\NewGuid.dproj"/>
+		</Target>
+		<Target Name="NewGuid:Make">
+			<MSBuild Targets="Make" Projects="NewGuid\NewGuid.dproj"/>
+		</Target>
+		<Target Name="FirstCom">
+			<MSBuild Projects="FirstCom\FirstCom.dproj"/>
+		</Target>
+		<Target Name="FirstCom:Clean">
+			<MSBuild Targets="Clean" Projects="FirstCom\FirstCom.dproj"/>
+		</Target>
+		<Target Name="FirstCom:Make">
+			<MSBuild Targets="Make" Projects="FirstCom\FirstCom.dproj"/>
+		</Target>
+		<Target Name="PackAuto">
+			<MSBuild Projects="PackAuto\PackAuto.dproj"/>
+		</Target>
+		<Target Name="PackAuto:Clean">
+			<MSBuild Targets="Clean" Projects="PackAuto\PackAuto.dproj"/>
+		</Target>
+		<Target Name="PackAuto:Make">
+			<MSBuild Targets="Make" Projects="PackAuto\PackAuto.dproj"/>
+		</Target>
+		<Target Name="Propcom">
+			<MSBuild Projects="PropCom\Propcom.dproj"/>
+		</Target>
+		<Target Name="Propcom:Clean">
+			<MSBuild Targets="Clean" Projects="PropCom\Propcom.dproj"/>
+		</Target>
+		<Target Name="Propcom:Make">
+			<MSBuild Targets="Make" Projects="PropCom\Propcom.dproj"/>
+		</Target>
+		<Target Name="SimpleServer">
+			<MSBuild Projects="SimpleServer\SimpleServer.dproj"/>
+		</Target>
+		<Target Name="SimpleServer:Clean">
+			<MSBuild Targets="Clean" Projects="SimpleServer\SimpleServer.dproj"/>
+		</Target>
+		<Target Name="SimpleServer:Make">
+			<MSBuild Targets="Make" Projects="SimpleServer\SimpleServer.dproj"/>
+		</Target>
+		<Target Name="TestCom">
+			<MSBuild Projects="TestCom\TestCom.dproj"/>
+		</Target>
+		<Target Name="TestCom:Clean">
+			<MSBuild Targets="Clean" Projects="TestCom\TestCom.dproj"/>
+		</Target>
+		<Target Name="TestCom:Make">
+			<MSBuild Targets="Make" Projects="TestCom\TestCom.dproj"/>
+		</Target>
+		<Target Name="TestProp">
+			<MSBuild Projects="TestProp\TestProp.dproj"/>
+		</Target>
+		<Target Name="TestProp:Clean">
+			<MSBuild Targets="Clean" Projects="TestProp\TestProp.dproj"/>
+		</Target>
+		<Target Name="TestProp:Make">
+			<MSBuild Targets="Make" Projects="TestProp\TestProp.dproj"/>
+		</Target>
+		<Target Name="Tlibcli">
+			<MSBuild Projects="TLibCli\Tlibcli.dproj"/>
+		</Target>
+		<Target Name="Tlibcli:Clean">
+			<MSBuild Targets="Clean" Projects="TLibCli\Tlibcli.dproj"/>
+		</Target>
+		<Target Name="Tlibcli:Make">
+			<MSBuild Targets="Make" Projects="TLibCli\Tlibcli.dproj"/>
+		</Target>
+		<Target Name="Tlibdemo">
+			<MSBuild Projects="TLibDemo\Tlibdemo.dproj"/>
+		</Target>
+		<Target Name="Tlibdemo:Clean">
+			<MSBuild Targets="Clean" Projects="TLibDemo\Tlibdemo.dproj"/>
+		</Target>
+		<Target Name="Tlibdemo:Make">
+			<MSBuild Targets="Make" Projects="TLibDemo\Tlibdemo.dproj"/>
+		</Target>
+		<Target Name="WordTest">
+			<MSBuild Projects="WordTest\WordTest.dproj"/>
+		</Target>
+		<Target Name="WordTest:Clean">
+			<MSBuild Targets="Clean" Projects="WordTest\WordTest.dproj"/>
+		</Target>
+		<Target Name="WordTest:Make">
+			<MSBuild Targets="Make" Projects="WordTest\WordTest.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="NewGuid;FirstCom;PackAuto;Propcom;SimpleServer;TestCom;TestProp;Tlibcli;Tlibdemo;WordTest"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="NewGuid:Clean;FirstCom:Clean;PackAuto:Clean;Propcom:Clean;SimpleServer:Clean;TestCom:Clean;TestProp:Clean;Tlibcli:Clean;Tlibdemo:Clean;WordTest:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="NewGuid:Make;FirstCom:Make;PackAuto:Make;Propcom:Make;SimpleServer:Make;TestCom:Make;TestProp:Make;Tlibcli:Make;Tlibdemo:Make;WordTest:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

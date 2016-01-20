@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A29EF9F3-7E18-4ED7-8484-1BA0E70C7205}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ConvertCaller.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ConvertService.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="ConvertCaller">
+			<MSBuild Projects="ConvertCaller.dproj"/>
+		</Target>
+		<Target Name="ConvertCaller:Clean">
+			<MSBuild Targets="Clean" Projects="ConvertCaller.dproj"/>
+		</Target>
+		<Target Name="ConvertCaller:Make">
+			<MSBuild Targets="Make" Projects="ConvertCaller.dproj"/>
+		</Target>
+		<Target Name="ConvertService">
+			<MSBuild Projects="ConvertService.dproj"/>
+		</Target>
+		<Target Name="ConvertService:Clean">
+			<MSBuild Targets="Clean" Projects="ConvertService.dproj"/>
+		</Target>
+		<Target Name="ConvertService:Make">
+			<MSBuild Targets="Make" Projects="ConvertService.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="ConvertCaller;ConvertService"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="ConvertCaller:Clean;ConvertService:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="ConvertCaller:Make;ConvertService:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
